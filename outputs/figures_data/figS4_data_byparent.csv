@@ -1,0 +1,705 @@
+cause_cat,race_cat,metric_cat,year,median,lower95,upper95
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",1999,2114.4169240257115,1746.7117555202165,2572.027286618439
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",1999,2274.6407200815984,1952.1106439220582,2610.3170459444277
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2000,1789.04302667481,1478.7312914291808,2149.4469295002486
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2000,2294.119005713578,1997.377011009943,2587.5376706973434
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2001,1718.5529918532452,1430.157876208114,2016.789043263799
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2001,2549.473644045961,2245.854398006663,2892.1268739298052
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2002,1991.7319055561943,1697.6497952018315,2310.0976992145565
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2002,2510.4258365623086,2251.3212186296482,2828.3893917992546
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2003,2113.2326062722195,1825.6687264484508,2444.636926619065
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2003,2684.252542185607,2385.6304347236223,2986.671699996318
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2004,1873.7080926942058,1620.2257374090757,2137.559340811386
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2004,2616.53907066128,2315.8355000073952,2941.031807443563
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2005,2180.8009054694567,1906.102386503664,2490.931613167425
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2005,2853.3652363795027,2553.6141918301823,3162.193622467798
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2006,2458.4980338916353,2169.742291687953,2778.0848097768367
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2006,2749.2133257849136,2444.0188443921174,3074.949626228644
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2007,2302.489272773866,2041.2179356498089,2587.9954047839537
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2007,2779.56772004713,2493.7162902613895,3108.9627593757673
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2008,2327.899937616856,2072.5215122168047,2618.0445766368593
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2008,2579.2546516486127,2318.762830282979,2868.8674270904494
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2009,2241.7697541407742,1992.79666695944,2511.066423190742
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2009,2577.3846530130804,2320.337764621801,2892.801991567504
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2010,2136.893345375901,1886.7471561882608,2399.3451174221855
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2010,2342.6997310145953,2081.9299839536234,2642.7359585462564
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2011,2348.4814219740456,2085.882320169456,2630.160677436514
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2011,2226.662845336861,1994.8489118630025,2476.1438860628773
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2012,2474.0488878925435,2199.5877082856578,2783.1312552957183
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2012,2308.814330621354,2077.745541770845,2563.2504437177
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2013,2573.1722198060356,2310.2102872827254,2877.4923028790695
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2013,2247.220468593976,2022.1309508423724,2506.650294880259
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2014,2794.763390105061,2524.0004007605703,3142.8815319065657
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2014,2291.0061855829103,2034.4903372725175,2579.433786202381
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2015,3322.707993493538,2963.7136594518947,3742.654107527637
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2015,2401.1399240989995,2145.1615274369424,2675.2512721651983
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2016,4389.289687987351,3917.598272750342,4878.479332346848
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2016,2749.151881907842,2429.3942944694422,3077.2392680365606
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2017,5068.159321681284,4545.746400805636,5651.557159710581
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2017,2615.4185442485486,2341.3158091823557,2922.6833256947666
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2018,5108.0941416206415,4577.898312155773,5694.251654586608
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2018,2696.384684808001,2427.277099382415,3009.6820210336314
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2019,5891.410254974426,5305.628753201731,6553.727676050845
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2019,2689.603635942244,2410.853844709808,2994.9254448641423
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2020,7988.555887260554,7222.026229990803,8918.5939403296
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2020,3226.170178478316,2885.8206739401535,3595.5207695063914
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",1999,487.77661530566917,337.32648465340475,689.5905503567542
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",1999,369.70797814728803,261.70791120076524,491.7659321648227
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2000,455.6575156961071,321.14799635466665,629.8184881646334
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2000,361.81714173425723,258.66905276896364,487.17896527211667
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2001,497.1817586985979,367.3457313123073,672.4208937834849
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2001,363.0154953429908,279.5701501469425,478.58751589889744
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2002,602.2611705324385,452.9135335535228,789.707252953584
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2002,360.6887021107391,275.21682937737177,465.5726749810161
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2003,657.085460240437,513.2361228508926,849.1575590877617
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2003,369.76791350530124,278.88632915712526,465.7172056602125
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2004,647.4893284221098,518.8875549311537,807.1465461574328
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2004,330.3582147047332,259.6639876189464,417.4587703277308
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2005,718.8761625038833,584.2502741651997,894.2891374400112
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2005,416.5669036794481,329.49915685603133,511.8661166525932
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2006,843.9250102643455,696.324567105766,996.5543736890367
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2006,380.4054859459106,300.6724139368548,468.7187316577563
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2007,763.9967229479182,641.8576011668569,912.9846370538722
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2007,374.6198379054173,299.07337601034766,462.9730615572885
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2008,797.1897694828041,663.5857975403703,943.9657040620529
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2008,340.1907068876375,271.25759561452685,417.34337495540257
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2009,915.98288802043,772.1251259567739,1079.027339715388
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2009,357.64610801412584,284.81412465637925,432.5222163441769
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2010,921.1812044618141,785.4709317241851,1062.6228971630412
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2010,328.7623235732535,262.55365502860496,401.46272572875
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2011,1088.3742302118653,943.9541610502599,1276.7179040006786
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2011,369.22223714534107,300.4890029808459,447.6858052515623
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2012,1122.4957624272279,958.3915158210845,1314.2940232451087
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2012,355.7008201785495,280.10845569404944,431.9915685908313
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2013,1115.3799682690392,950.1251146081097,1297.5929990402888
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2013,359.7595450497462,277.773503048401,439.46335401936295
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2014,1173.465032030505,1008.3064768418495,1362.3530095680524
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2014,355.44378314003313,288.5243092896155,444.99010168780393
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2015,1263.3027835238508,1080.3740430019534,1469.2865662415245
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2015,413.77907851527834,331.9318606144782,512.7474125286606
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2016,1497.983540352241,1279.7014197479211,1724.1052688342254
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2016,436.6692220193077,354.1208613487259,533.0883844155582
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2017,1602.506294289229,1388.260619161057,1854.3301058425166
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2017,498.29123080229436,404.68243280968846,606.0433164273329
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2018,1600.8219925737485,1403.964731930683,1822.7471929405483
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2018,458.83068769721507,365.49014228544974,557.6576239111037
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2019,1693.632092783101,1491.4808374015208,1918.7366040370948
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2019,514.629314241974,417.8584454436925,626.0252632064057
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2020,2281.614639790807,2010.4115287416184,2593.8600803898435
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2020,520.1147002460857,424.4598265297225,638.0893504429268
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",1999,1782.376323398601,1456.602485477998,2135.103638566848
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",1999,4465.882311700155,4014.117029682919,4999.502361761688
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2000,1698.2432289409285,1399.9225916199898,2027.0960895826834
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2000,4621.646499039043,4173.033998402281,5144.851337811595
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2001,1681.6532331155706,1431.1179033857616,2003.968954712442
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2001,4619.613683630607,4183.2981862158695,5119.746941119282
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2002,1745.8093592900293,1493.1572168100367,2042.5491892385025
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2002,5036.257797726028,4530.823220889688,5565.797713598557
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2003,1708.9839359283183,1453.9514504506465,1966.3727694066627
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2003,4918.195141211749,4457.1507701001565,5419.655016887196
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2004,1584.490009013064,1387.473611344957,1801.638793927217
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2004,4712.176134064952,4293.743572970976,5188.637801793499
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2005,1774.4928401634725,1561.7410067754354,1990.7665028707133
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2005,5065.3813136946565,4593.747137818829,5573.710649018782
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2006,2195.651598854656,1971.5291947296014,2465.1378730042316
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2006,5096.7151898039965,4659.534516757374,5595.986846336831
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2007,1737.2736188377648,1548.8101701103546,1941.7086287906475
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2007,4957.973297047418,4521.777981900295,5460.319284945891
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2008,1465.654468517755,1309.2114379492941,1629.9756927534697
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2008,4720.388056274159,4326.836639786882,5174.530478807088
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2009,1414.1679332366707,1262.4316521114813,1579.742153062231
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2009,4500.98899461846,4100.463161001831,4926.8337987733585
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2010,1249.4819956576919,1112.8418210283658,1394.9378878158936
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2010,4418.63118245471,4045.8875746433255,4865.0464530355475
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2011,1412.77655938431,1266.9778179290574,1575.8762142068886
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2011,4443.954701494191,4030.035722629922,4843.938868888622
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2012,1412.0148212426955,1258.3577517905921,1568.9349580620637
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2012,4758.8187061060835,4347.822981813021,5215.754726114108
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2013,1604.064213663343,1443.4949824467808,1775.3418948781496
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2013,4684.3798721038065,4302.092077352753,5149.096626033935
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2014,1773.6163305452815,1581.674356874918,1960.460004009257
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2014,4478.362141037911,4046.257840248945,4888.666491205368
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2015,2232.071639288913,2021.4434210908705,2463.0226832193375
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2015,5281.227697646668,4830.801638322891,5749.850429313064
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2016,3195.6795041247606,2883.717956445109,3504.2309582124194
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2016,5748.385382962151,5225.894410435728,6287.340981612018
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2017,4046.6431740231237,3678.6013098354065,4431.626520902574
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2017,5874.818930545746,5368.688702364679,6446.5684870654
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2018,4133.220596431365,3758.2930397666823,4539.351572538142
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2018,5566.270179442332,5126.751893606173,6080.254331928511
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2019,4835.525826471775,4403.554876854492,5304.458533431465
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2019,5820.139731110544,5334.033034966187,6387.243067418964
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2020,7340.288517191957,6663.195684837675,8030.015488442734
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2020,7737.819341726663,7140.897342340902,8532.414764564443
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",1999,817.5541921881496,602.6059950109116,1080.5218033940532
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",1999,810.051803280141,643.1804134516783,996.501334577004
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2000,830.3022736421113,618.121060167641,1096.3082885524518
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2000,782.1500136287403,630.9919401965816,959.2622867233225
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2001,873.2470657717506,667.3455950465183,1134.9001648440926
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2001,793.466190848211,652.4518088768561,968.0569171916179
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2002,953.5388787513004,757.1450385902746,1196.3678140074871
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2002,791.5681524071354,663.3363513257381,938.3528248780165
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2003,985.9177670390354,791.3753140155891,1219.9939078552738
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2003,722.6194318016769,608.6563558300253,843.3531928497789
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2004,1015.1665201191167,823.2989051789473,1220.9018778349841
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2004,660.6723868777077,556.8336966944818,777.2743545359355
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2005,1091.5786156366325,903.6757186894562,1285.9078969131867
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2005,676.01973221709045,573.3264300111614,786.7110599122003
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2006,1082.0162219094914,912.715481901959,1246.7025838149584
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2006,749.7787170878594,645.0688447284668,870.6639907614319
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2007,1014.9267649198353,882.337541711567,1173.785607661055
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2007,704.2569401591641,597.8649149210042,815.2674066250256
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2008,870.0778344710617,739.8672883238121,1003.720978864852
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2008,605.71140193111,527.6745402116268,701.5313080118835
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2009,877.0350220652616,755.7474984716775,1012.4308931579646
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2009,639.1838807361444,550.9062039044012,734.1744444341365
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2010,903.0300391292319,773.219888080162,1039.285538002115
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2010,587.3027821021136,497.38088054679025,677.3646873830016
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2011,935.3696738117453,795.3860560117153,1073.292547742954
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2011,597.7681333326029,506.60559713029414,684.0403052769883
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2012,944.5729870958897,811.794304737131,1082.9024648523402
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2012,633.2366026981274,544.3932376561457,729.0674687714696
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2013,950.9599919493526,830.1360097954946,1083.8567983134585
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2013,641.1439484288678,549.6295124377151,746.3647171981138
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2014,1078.1645238481474,944.9082106128378,1227.7595599969059
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2014,544.8194780687475,465.9846551716464,636.3116213483747
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2015,1157.9599979979807,1013.5457819457444,1315.501147628276
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2015,639.3276673761337,545.0612188965003,735.5485402123555
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2016,1607.190771657885,1413.8679331200287,1817.1490936449668
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2016,807.8218860370569,697.043623766902,936.7231471635433
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2017,1852.347453416624,1654.2559923725648,2085.706154432145
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2017,773.7444541459568,660.1326418071963,892.8914870730033
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2018,1793.2201909965695,1605.7918866119453,2013.3237913402431
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2018,882.5511184147708,766.8464616452488,1010.4993062937372
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2019,2138.3392323607977,1911.73992120999,2381.547076943174
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2019,837.5403217828083,725.88273116866,955.5738631175087
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2020,3206.208018884028,2886.3599675019877,3550.527485646158
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2020,1148.4104807559493,1010.0672101233097,1302.4989827038853
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",1999,7608.181396483942,6769.110000592375,8500.1100932998
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",1999,8688.917962065,7893.981634391334,9498.766910589462
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2000,8007.9261503005255,7266.320368537714,8902.502225127802
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2000,8602.255643365019,7865.320467614815,9451.72570961555
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2001,8822.408374394709,8013.678924789207,9674.989716486907
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2001,8828.459509630578,8137.226094163053,9622.87485916691
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2002,10403.366054993729,9513.63639895442,11351.616211916604
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2002,8847.728341959237,8162.4927032852365,9591.554252500475
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2003,11078.574863016771,10170.059807056046,12010.699984951003
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2003,8595.680420968385,7970.583091359194,9251.934416618795
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2004,11530.581104251934,10647.168614134142,12404.866185681067
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2004,8362.378484482739,7789.4876455283875,9012.12951998289
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2005,11984.496462155148,11100.660458772234,12971.182177274824
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2005,8361.92180474698,7805.355329304347,8972.482019282706
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2006,13609.955263537971,12648.656307964387,14560.536365622931
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2006,8195.14811368811,7665.854584274506,8803.839104494282
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2007,14017.842608980924,13089.649248714142,15014.740811732088
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2007,8506.77344342291,7943.001581493101,9068.715281912322
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2008,13968.004168732712,13058.895268147711,14987.918274396794
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2008,8715.681492348696,8161.411146878631,9340.458339331688
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2009,13984.39066072087,13048.132934331197,14881.925758629577
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2009,8526.613695030626,7999.425254131188,9123.386113742583
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2010,14148.978937004233,13155.052739644485,15170.702897303805
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2010,8919.524950679224,8350.101199287383,9548.905586458119
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2011,15156.798273636437,14120.816208901733,16257.290100674032
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2011,8771.32531482909,8230.575596901368,9364.696151673472
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2012,15123.808267598048,14152.723496506935,16164.988653794015
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2012,8840.03863997124,8283.850649375747,9421.20794566756
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2013,15636.536876337654,14576.04733678525,16780.175045536562
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2013,8894.75082252366,8373.685713387258,9490.17689471855
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2014,17001.069410980068,15896.806499705259,18204.888562361888
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2014,8595.3530884785,8045.045335999105,9141.19546847441
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2015,19395.414948261394,18056.512548899278,20734.25582840439
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2015,9131.40841412983,8568.71059190314,9765.760100571266
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2016,24075.789631470907,22495.376143110916,25897.031667384294
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2016,9418.885680368376,8829.927581246442,10041.259825095332
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2017,26569.267072441733,24827.290050008578,28340.052509320914
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2017,9523.721876715343,8919.716501762181,10155.55417416158
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2018,24917.7475748681,23117.540253992414,26697.806152925416
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2018,9396.298831014707,8797.3032529725715,10041.444788976103
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2019,25320.362688894405,23600.856919491325,27032.74100824191
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2019,9144.50625763999,8543.387386230836,9764.503783953236
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2020,32425.509817748745,30202.858521377897,34873.480000818665
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2020,9497.299242956193,8887.776110125458,10132.358075989347
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",1999,3623.1334432150616,3165.1701311900943,4150.254857808079
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",1999,1962.1323809337948,1688.0937753945914,2252.1373164741167
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2000,3861.7705385015597,3359.1239393158257,4357.226004027642
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2000,1946.5876677627662,1682.2899069176474,2219.020944406676
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2001,4538.113292146481,4015.5987186201273,5109.18624404431
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2001,1907.658894069487,1661.6720500213312,2172.925838902623
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2002,5718.9310540836705,5083.882151681103,6395.447675934171
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2002,1896.7521869460465,1675.8193696349097,2127.4620543243927
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2003,6284.341828785005,5678.0942755190335,6933.825302337773
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2003,1845.9107735234386,1648.1933273691805,2072.383984577457
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2004,6803.249985202736,6246.339128047288,7436.747724631889
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2004,1847.146848655827,1670.6968239768798,2050.3654339744244
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2005,7137.957621475653,6575.244071712855,7730.72778736256
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2005,1819.2264112104647,1638.3613404077896,1995.489591155138
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2006,7898.569765952916,7308.6252837983175,8484.257375885225
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2006,1778.2075922970157,1615.1865286559473,1952.3909117850915
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2007,8497.48887918486,7894.590449775106,9109.77418847513
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2007,1855.6018952762397,1685.0813418096006,2034.3768478217826
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2008,8754.566542032728,8109.9750818909915,9394.076822515548
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2008,1896.6188628040186,1742.666830460362,2083.1675606838153
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2009,8628.616828862981,8012.632356277594,9313.574614355295
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2009,1919.729780253981,1752.1192929130675,2088.607954741344
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2010,9218.648588139353,8574.203175671675,9853.125977965758
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2010,1856.5591329882611,1696.7605714823874,2036.9730016033827
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2011,9803.330442848664,9117.125669424857,10578.808087097434
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2011,1969.0796311427757,1798.8901643529803,2144.461961177565
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2012,9556.61284491963,8904.456607372826,10259.389746724424
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2012,2003.3911039910447,1826.7839866655454,2160.182619248683
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2013,9806.850263584514,9160.874166876618,10501.990417598321
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2013,1981.0005501311625,1802.3847150543468,2170.478929581591
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2014,10367.543549921616,9622.126209367205,11114.436530745486
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2014,2010.9280044823172,1830.484146809004,2198.4591493723365
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2015,11242.916255476535,10523.373678550714,12037.326370231876
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2015,2127.923328718819,1922.1811045007448,2324.78113248719
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2016,12675.375815422172,11928.64605491095,13525.652969926721
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2016,2223.5842084865717,2035.99502812433,2429.6462962461883
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2017,13624.095441884187,12819.303219140098,14583.785707138328
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2017,2185.80057089443,1998.949986630273,2393.709001287642
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2018,12669.878353260736,11887.288738039844,13465.872489982641
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2018,2094.325291363527,1911.7859605258666,2296.8409995236348
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2019,12388.198844597675,11586.335549085623,13312.872018976983
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2019,2021.6845665721721,1854.1934981853906,2221.152901132901
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2020,15284.911000283586,14297.83037831906,16216.442993429246
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2020,2111.009810226231,1931.5601611886257,2311.760127544098
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",1999,11641.437342731806,10557.65313513109,12710.703894110482
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",1999,15174.938938650754,14024.827107783665,16455.70518821671
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2000,11788.50873462958,10884.275532209464,12863.320343394484
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2000,15185.484039309831,14141.271884407988,16427.46332948541
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2001,12650.641694657223,11604.073638533408,13748.312527733367
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2001,15666.370580558087,14576.289593112118,16800.958742928204
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2002,14574.458557370544,13511.631343704128,15772.730268276835
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2002,16076.843199431454,15042.389219178169,17165.714155223654
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2003,15418.299332727314,14217.922087058243,16626.584027175635
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2003,15923.660175030655,14879.322905339499,16952.382477521405
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2004,15596.063060930737,14600.600066591613,16736.494503502432
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2004,15456.856643550018,14375.729118484556,16500.144422596066
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2005,16582.76454562971,15485.00251341639,17751.486277621934
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2005,16026.221759933487,14976.940298711359,17110.057779076767
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2006,19111.87089424129,17844.590753509197,20449.89645146073
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2006,15755.100988984195,14721.866352862979,16877.950314847687
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2007,18911.30439822195,17681.84888415912,20291.535924379456
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2007,16092.521027877065,15157.370599268372,17194.22003214164
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2008,18685.046901702466,17436.782530718676,19899.026172683993
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2008,16021.196088696657,14985.936500851189,17085.52062032723
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2009,18600.821742384614,17485.406271040385,19863.400105394354
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2009,15631.974096234953,14601.103146802887,16590.88589662545
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2010,18525.52839203702,17463.61140127394,19768.333658974876
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2010,15795.198166821334,14831.314148299,16826.800998362505
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2011,19992.30172840006,18797.199212199892,21318.509387970684
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2011,15655.144263471819,14641.951714830935,16580.59684830876
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2012,20072.125149123065,18865.165365554545,21304.535785606855
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2012,16169.46961236429,15140.046238701954,17283.789222975847
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2013,20936.87410352646,19543.52473608654,22219.52832862104
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2013,16125.653456302965,15137.838679014869,17191.48068624107
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2014,22790.686221336357,21342.934406224278,24335.936798588846
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2014,15665.120330878477,14667.49715611171,16668.488442654947
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2015,26381.19555756889,24647.813538943108,28110.543943106924
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2015,17115.098975400793,16075.561104620676,18176.14919898164
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2016,33406.21247040545,31162.72496547219,35458.499914213695
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2016,18228.360665504544,17115.24040122355,19523.62529693491
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2017,37510.49802153193,35175.36537509986,40303.8204401307
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2017,18419.277333496346,17309.96041357497,19650.354557742015
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2018,35847.01943009456,33630.093495076755,38097.226539339885
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2018,18110.012908336757,17045.28094362687,19355.16877006518
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2019,37761.7964170663,35420.92405007121,40346.01483257171
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2019,18061.876437587438,16933.804057039455,19249.767629225847
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2020,49998.25984987969,46892.54760044657,53392.01604811202
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2020,20795.963995344035,19480.4678695649,22211.290298588094
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",1999,5174.139802318261,4590.281909580429,5799.430793352402
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",1999,3215.598122420117,2866.7632346738765,3603.20901383468
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2000,5401.542961031764,4855.282701440349,6046.845141256211
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2000,3165.0819822741,2812.6628314426457,3541.2181399436777
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2001,6227.934899538404,5602.595114570433,6920.206589411596
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2001,3130.41664469794,2838.6726448704435,3482.862182271371
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2002,7671.152539971959,7022.4166765034215,8499.532553020532
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2002,3123.4876503923933,2823.031064369741,3416.3742228187866
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2003,8385.458251840388,7712.776822409263,9125.27550709083
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2003,2982.974152421907,2718.5657732656578,3285.075933334603
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2004,8974.271751369988,8296.654423513579,9721.613789895624
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2004,2918.1450493469347,2664.0566115691304,3163.4383398586447
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2005,9509.855747483818,8825.33549005782,10198.801299526931
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2005,2960.557882027958,2706.420461139141,3211.792320174645
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2006,10402.610317645504,9738.426831911413,11134.463250945902
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2006,2965.865532701972,2717.7011700049106,3204.8710313446195
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2007,10972.757519997074,10264.968586671024,11669.403158987812
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2007,2991.516474821042,2760.2209724627387,3238.3773266050716
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2008,11099.482151687233,10397.953398700385,11820.95435506785
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2008,2922.5225195776484,2705.7647869989664,3166.6564312834043
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2009,11119.965090712227,10455.227540352738,11833.484955160853
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2009,3005.785272389309,2771.791553666286,3243.7636715025574
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2010,11768.859372121326,11076.036351356168,12606.314351309538
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2010,2881.0619480906234,2650.635681975364,3119.1481177400706
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2011,12630.189075102393,11849.49278314377,13439.283258820435
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2011,3038.177238268701,2785.41024682738,3276.8040236037814
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2012,12390.393748667073,11614.444436626898,13201.5348039755
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2012,3095.227184663956,2851.785857846428,3331.0185981482955
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2013,12689.41992710266,11884.116826162803,13487.515282774233
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2013,3096.781856457852,2858.00471719029,3332.3550952240207
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2014,13516.313810062698,12695.102444851378,14366.193198421699
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2014,3046.6688522957115,2838.1635600246127,3300.4200680028
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2015,14541.859481899348,13739.007022018757,15480.406351897474
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2015,3312.6885141172907,3068.2145169254923,3569.2758667026787
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2016,16870.76714157981,15853.272483597484,17918.63763812311
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2016,3589.1698593737674,3316.0179568817493,3853.3353075159316
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2017,18274.216338696948,17174.525761420304,19334.024971107036
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2017,3578.9305237377066,3319.956776922785,3870.456006852575
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2018,17175.277415854955,16192.26436960597,18273.563477583837
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2018,3576.2803503925707,3293.4129545519017,3834.587791935578
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2019,17269.69237159816,16287.068778093926,18319.489454155282
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2019,3507.804608059136,3257.8485691896694,3766.334769243015
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2020,22018.59577481368,20696.487934503384,23461.403637194468
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2020,3850.3607817780116,3569.0243060158978,4165.577699192692

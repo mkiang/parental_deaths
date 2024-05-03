@@ -1,0 +1,491 @@
+---
+title: "Numbers used in text of the manuscript"
+author: "Mathew Kiang"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    code_folding: 'hide'
+    toc: true
+    toc_float: true
+---
+
+```{r options, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+```
+
+## Set up
+
+```{r settings, results='hide'}
+library(tidyverse)
+library(here)
+library(knitr)
+library(kableExtra)
+source(here("codes", "utils.R"))
+```
+
+```{r data}
+# Incidence of bereavement of at least on parent
+# by cause and number of orphans
+df.inc.parental.loss.by.cause <- readRDS(
+        here(
+                "outputs",
+                "data_public",
+                "df_incidence_parental_loss_by_cause.rds")
+)
+
+# Children experiencing bereavement of at least on parent
+# by cause 
+df.n.loss.by.cause <- readRDS(
+        here(
+                "outputs",
+                "data_public",
+                "df_n_loss_by_cause.rds")
+)
+
+# Life table
+lt.US <- readRDS(
+        here("outputs",
+             "data_public",
+             "lt_US.rds")
+)
+
+# Incidence of bereavement of at least on parent by cause and number of orphans
+df.inc.parental.loss.by.cause.sex <- readRDS(
+        here(
+                "outputs",
+                "data_public",
+                "df_incidence_parental_loss_by_cause_sex.rds")
+)
+
+# Children experiencing bereavement of at least on parent by cause 
+df.n.loss.by.cause.sex <- readRDS(
+        here(
+                "outputs",
+                "data_public",
+                "df_n_loss_by_cause_sex.rds")
+)
+
+```
+
+## Demographics of drug and firearm deaths
+
+### Number and percents of drug and firearm deaths by sex and cause of death
+```{r}
+lt.US |> 
+    bind_rows(lt.US |> mutate(sex = "both")) |>
+    mutate(drugs_and_firearms = n_drug + n_firearm) |> 
+    filter(year %in% 1999:2020, race_eth == "total") |> 
+    group_by(sex) |>
+    summarize(n_drugs = sum(n_drug, na.rm = TRUE),
+              n_firearm = sum(n_firearm, na.rm = TRUE),
+              drugs_and_firearms = sum(drugs_and_firearms, na.rm = TRUE)) |> 
+    mutate(percent_total = drugs_and_firearms / max(drugs_and_firearms) * 100) |> 
+    mutate(across(n_drugs:drugs_and_firearms, ~ prettyNum(.x, big.mark = ",")),
+           percent_total = sprintf("%0.1f", round(percent_total, 1)))
+```
+
+### Mean (SD) age by sex and type of death
+```{r}
+w_mean_age <- lt.US |>
+    mutate(drugs_and_firearms = n_drug + n_firearm) |>
+    filter(year %in% 1999:2020, race_eth == "total") |>
+    summarize(weighted_mean = weighted.mean(age, drugs_and_firearms)) |> 
+    pull(weighted_mean)
+age_vector <- lt.US |>
+    mutate(drugs_and_firearms = n_drug + n_firearm) |>
+    filter(year %in% 1999:2020, race_eth == "total") |>
+    pull(age)
+weight_vector <- lt.US |>
+    mutate(drugs_and_firearms = n_drug + n_firearm) |>
+    filter(year %in% 1999:2020, race_eth == "total") |>
+    pull(drugs_and_firearms)
+w_sd_age <- sqrt(weighted.mean((age_vector - w_mean_age)^2, weight_vector))
+print(sprintf("mean (SD) age of death of %0.1f (%0.1f) years", 
+              round(w_mean_age, 1), 
+              round(w_sd_age, 1)))
+```
+
+### Number and percent of drug and firearm deaths by race/ethnicity
+
+For completeness, I include American Indian / Alaska Native and Asian / Pacific Islander but they were not analyzed in the manuscript (due to small sample size). 
+```{r}
+lt.US |>
+    mutate(drugs_and_firearms = n_drug + n_firearm) |>
+    filter(year %in% 1999:2020) |>
+    group_by(race_eth) |>
+    summarize(
+        n_drugs = sum(n_drug, na.rm = TRUE),
+        n_firearm = sum(n_firearm, na.rm = TRUE),
+        drugs_and_firearms = sum(drugs_and_firearms, na.rm = TRUE)
+    ) |>
+    rename(race = race_eth) |> 
+    mutate(percent_total = drugs_and_firearms / max(drugs_and_firearms) * 100) |>
+    mutate(across(n_drugs:drugs_and_firearms, ~ prettyNum(.x, big.mark = ",")),
+           percent_total = sprintf("%0.1f", round(percent_total, 1))) |> 
+    categorize_race() |> 
+    arrange(race_cat) |> 
+    select(race_cat, race, n_drugs:percent_total)
+```
+
+## Number of youth experiencing parental deaths
+
+### Number of parental deaths by race/ethnicity for each cause separately
+```{r}
+df.n.loss.by.cause |>
+    categorize_race() |>
+    ungroup() |>
+    summarise(.by = c(cause, race_cat),
+              across(median:upper95, ~ sum(.x))) |>
+    arrange(race_cat, cause) |>
+    transmute(race_cat,
+              cause,
+              estimate = sprintf(
+                  "%0.1f (95%% CI: %0.1f to %0.1f)",
+                  round(median  / 1000, 1),
+                  round(lower95 / 1000, 1),
+                  round(upper95 / 1000, 1)
+              )) |>
+    arrange(cause, race_cat) |> 
+    kable(
+        row.names = FALSE,
+        col.names = c(
+            "Race/Ethnicity",
+            "Cause of death",
+            "Estimate in thousands (95% CI)"
+        ),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```
+
+### Number of losses due to drugs and firearms combined by race/ethnicity
+```{r}
+df.n.loss.by.cause |>
+    filter(cause != "other") |> 
+    ungroup() |>
+    summarise(.by = c(race),
+              across(median:upper95, ~ sum(.x))) |>
+    mutate(cause = "drugs and firearms") |>
+    arrange(race, cause) |>
+    categorize_race() |> 
+    transmute(race_cat,
+              cause,
+              estimate = sprintf(
+                  "%s (95%% CI: %s to %s)",
+                  prettyNum(round(median  / 1000, 1), big.mark = ","),
+                  prettyNum(round(lower95 / 1000, 1), big.mark = ","),
+                  prettyNum(round(upper95 / 1000, 1), big.mark = ",")
+              )) |>
+    arrange(race_cat) |> 
+    kable(
+        row.names = FALSE,
+        col.names = c(
+            "Race/Ethnicity",
+            "Cause of death",
+            "Estimate in thousands (95% CI)"
+        ),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```
+
+## Per-thousand of parental deaths 
+
+### Per-thousand of losses due to both drugs and firearms in 2020 by race/ethnicity
+
+```{r}
+df.inc.parental.loss.by.cause |>
+    filter(cause != "other",
+           year == 2020) |>
+    ungroup() |>
+    summarise(.by = c(race),
+              across(median:upper95, ~ sum(.x) * 1000)) |>
+    arrange(race) |>
+    mutate(cause = "drugs and firearms") |>
+    transmute(race,
+              cause,
+              estimate = sprintf(
+                  "%0.2f per 1000 (95%% CI: %0.2f to %0.2f)",
+                  round(median, 2),
+                  round(lower95, 2),
+                  round(upper95, 2)
+              )) |>
+    kable(
+        row.names = FALSE,
+        col.names = c("Race/Ethnicity",
+                      "Cause of death",
+                      "Estimate per 1000 (95% CI)"),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```
+
+### Per-thousand of children experiencing parental death in 2020 by race/ethnicity and cause of death
+
+```{r}
+df.inc.parental.loss.by.cause |>
+    categorize_race() |>
+    ungroup() |> 
+    filter(year == 2020) |>
+    mutate(across(median:upper95, ~ .x * 1000)) |>
+    transmute(
+        race_cat,
+        cause,
+        year,
+        estimate = sprintf(
+            "%0.2f per 1000 (95%% CI: %0.2f to %0.2f)",
+            round(median,  2),
+            round(lower95, 2),
+            round(upper95, 2)
+        )
+    ) |>
+    arrange(desc(cause), race_cat) |>
+    kable(
+        row.names = FALSE,
+        col.names = c(
+            "Race/Ethnicity",
+            "Cause of death",
+            "Year",
+            "Estimate per 1000 (95% CI)"
+        ),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```
+## Proportion of parentals deaths
+
+### Proportion of all parental deaths due to drugs and firearms over whole time period
+```{r}
+prop_deaths <- df.n.loss.by.cause |>
+    categorize_race() |>
+    ungroup() |>
+    summarise(.by = c(cause, race_cat),
+              across(median:upper95, ~ sum(.x))) |>
+    arrange(race_cat, cause) |> 
+    filter(race_cat == "Total") |> 
+    mutate(prop = median / sum(median)) |> 
+    filter(cause != "other") |> 
+    pull(prop) |> 
+    sum()
+print(sprintf("drugs and firearms account for %0.1f%% of all paternal deaths between 1999 and 2020", prop_deaths * 100))
+```
+
+### Proportion of all parental deaths due to drugs and firearms in 1999
+```{r}
+prop_deaths <- df.n.loss.by.cause |>
+    filter(year == 1999) |> 
+    categorize_race() |>
+    ungroup() |>
+    summarise(.by = c(cause, race_cat),
+              across(median:upper95, ~ sum(.x))) |>
+    arrange(race_cat, cause) |> 
+    filter(race_cat == "Total") |> 
+    mutate(prop = median / sum(median)) |> 
+    filter(cause != "other") |> 
+    pull(prop) |> 
+    sum()
+print(sprintf("drugs and firearms account for %0.1f%% of all paternal deaths in 1999", prop_deaths * 100))
+```
+
+### Proportion of all parental deaths due to drugs and firearms in 2020
+```{r}
+prop_deaths <- df.n.loss.by.cause |>
+    filter(year == 2020) |> 
+    categorize_race() |>
+    ungroup() |>
+    summarise(.by = c(cause, race_cat),
+              across(median:upper95, ~ sum(.x))) |>
+    arrange(race_cat, cause) |> 
+    filter(race_cat == "Total") |> 
+    mutate(prop = median / sum(median)) |> 
+    filter(cause != "other") |> 
+    pull(prop) |> 
+    sum()
+print(sprintf("drugs and firearms account for %0.1f%% of all paternal deaths in 2020", prop_deaths * 100))
+```
+
+## Relative changes 
+
+### Relative increase in losses from 1999 to 2020 for total population by cause of death
+
+```{r}
+df.n.loss.by.cause |>
+    filter(race == "total",
+           year %in% c(1999, 2020)) |>
+    ungroup() |>
+    summarise(.by = c(race, cause, year),
+              across(median:upper95, ~ sum(.x))) |>
+    pivot_wider(names_from = year,
+                values_from = median:upper95) |>
+    mutate(
+        m_perc_inc = ((median_2020 - median_1999) / median_1999) * 100,
+        u95_perc_inc = ((lower95_2020 - lower95_1999) / lower95_1999) * 100,
+        l95_perc_inc = ((upper95_2020 - upper95_1999) / upper95_1999) * 100
+    ) |>
+        transmute(race, 
+                  cause,
+                  estimate = sprintf("%0.1f%% (95%% CI: %0.1f to %0.1f)", 
+                                     round(m_perc_inc, 1),
+                                     round(l95_perc_inc, 1),
+                                     round(u95_perc_inc, 1))) |> 
+        kable(
+            row.names = FALSE, 
+            col.names = c("Race/Ethnicity",
+                          "Cause of death",
+                           "Estimated change in % (95% CI)"),
+            format = "html",
+            booktabs = TRUE
+        ) |> 
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```
+
+## Parent-specific results
+
+### Per-thousand of losses due to both drugs and firearms in 2020 by race/ethnicity and parent
+
+```{r}
+df.inc.parental.loss.by.cause.sex |>
+    filter(cause != "other",
+           year == 2020) |>
+    ungroup() |>
+    summarise(.by = c(race, sex),
+              across(median:upper95, ~ sum(.x) * 1000)) |>
+    arrange(sex, race) |>
+    mutate(cause = "drugs and firearms") |>
+    transmute(sex,
+              race,
+              cause,
+              estimate = sprintf(
+                  "%0.2f per thousand (95%% CI: %0.2f to %0.2f)",
+                  round(median,  2),
+                  round(lower95, 2),
+                  round(upper95, 2)
+              )) |>
+    kable(
+        row.names = FALSE,
+        col.names = c(
+            "Parent",
+            "Race/Ethnicity",
+            "Cause of death",
+            "Estimate in per 1000 (95% CI)"
+        ),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```
+
+### Per-thousand of children experiencing parental death in 2020 by race/ethnicity and cause of death and parent
+
+```{r}
+df.inc.parental.loss.by.cause.sex |>
+    categorize_race() |>
+    ungroup() |> 
+    filter(year == 2020) |>
+    mutate(across(median:upper95, ~ .x * 1000)) |>
+    transmute(
+        sex, 
+        race_cat,
+        cause,
+        year,
+        estimate = sprintf(
+            "%0.2f per 1000 (95%% CI: %0.2f to %0.2f)",
+            round(median,  2),
+            round(lower95, 2),
+            round(upper95, 2)
+        )
+    ) |>
+    arrange(sex, desc(cause), race_cat) |>
+    kable(
+        row.names = FALSE,
+        col.names = c(
+            "Parent", 
+            "Race/Ethnicity",
+            "Cause of death",
+            "Year",
+            "Estimate per 1000 (95% CI)"
+        ),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```
+
+
+
+## Other numbers (some not used in the text, just for comparison)
+
+### Increase in losses due to firearms for black between 2014 and 2020
+
+```{r}
+df.inc.parental.loss.by.cause |> 
+        filter(
+                cause == "firearms",
+                race == "black",
+                year %in% c(2014,2020)
+        ) |> 
+        pivot_wider(
+                names_from = year, 
+                values_from = median:upper95
+        ) |> 
+        mutate(
+                m_perc_inc = ((median_2020 - median_2014) / median_2014) * 100,
+                u95_perc_inc = ((lower95_2020 - lower95_2014) / lower95_2014) * 100,
+                l95_perc_inc = ((upper95_2020 - upper95_2014) / upper95_2014) * 100
+        ) |> 
+        dplyr::select(
+                cause, race, contains("perc_inc")
+        ) |>
+    transmute(race,
+              cause,
+              estimate = sprintf(
+                  "%0.2f (%0.2f to %0.2f)",
+                  round(m_perc_inc, 2),
+                  round(l95_perc_inc, 2),
+                  round(u95_perc_inc, 2)
+              )) |>
+    kable(
+        row.names = FALSE,
+        col.names = c("Race/Ethnicity",
+                      "Cause of death",
+                      "Estimated change in % (95% CI)"),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```
+
+### Number of parental deaths due to *all* causes combined by race/ethnicity
+```{r}
+df.n.loss.by.cause |>
+    categorize_race() |>
+    ungroup() |>
+    summarise(.by = c(race_cat),
+              across(median:upper95, ~ sum(.x))) |>
+    arrange(race_cat) |>
+    transmute(race_cat,
+              estimate = sprintf(
+                  "%0.1f (%0.1f to %0.1f)",
+                  round(median  / 1000, 1),
+                  round(lower95 / 1000, 1),
+                  round(upper95 / 1000, 1)
+              )) |>
+    arrange(race_cat) |> 
+    kable(
+        row.names = FALSE,
+        col.names = c(
+            "Race/Ethnicity",
+            "Estimate in thousands (95% CI)"
+        ),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down"))
+```

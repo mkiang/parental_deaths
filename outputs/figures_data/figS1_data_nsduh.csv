@@ -1,0 +1,561 @@
+racegender_cat,age_cat,everuse_cat,n_kids_cat,column_percent,column_percent_ci_lower,column_percent_ci_upper,unweighted_count,weighted_count
+Overall,All (12 to 49),"Never used drug/
+used only marijuana",0,0.6482205558492992,0.6335783453742769,0.66258925873237,13270,70217133.64431752
+Overall,All (12 to 49),"Never used drug/
+used only marijuana",1,0.13155148476038853,0.12112638120752563,0.14272814065612174,1949,14250038.976974515
+Overall,All (12 to 49),"Never used drug/
+used only marijuana",2,0.13358465979255954,0.12417412223690014,0.14359144974428123,2004,14470278.40268849
+Overall,All (12 to 49),"Never used drug/
+used only marijuana",3 or more,0.08664329959776007,0.0789138189478067,0.09505174222670236,1255,9385453.905067084
+Overall,All (12 to 49),"Illicit drug except for 
+marijuana are ever used",0,0.6517826102749973,0.6306195712584874,0.6723631001993758,4924,28698104.627079483
+Overall,All (12 to 49),"Illicit drug except for 
+marijuana are ever used",1,0.1449225358171164,0.12979273051522275,0.16148871469065135,870,6380965.110355632
+Overall,All (12 to 49),"Illicit drug except for 
+marijuana are ever used",2,0.13537370081105934,0.12224311584237428,0.14967418971542065,874,5960528.201253492
+Overall,All (12 to 49),"Illicit drug except for 
+marijuana are ever used",3 or more,0.06792115309683308,0.05633118443994178,0.0816892978248841,411,2990580.4899311415
+"Male, Non-Hispanic White",All (12 to 49),"Never used drug/
+used only marijuana",0,0.7053539930990332,0.6839516889192893,0.725887824937321,3731,18439668.219691843
+"Male, Non-Hispanic White",All (12 to 49),"Never used drug/
+used only marijuana",1,0.10433493578887604,0.08814678107580061,0.12309471381954397,406,2727568.8781698113
+"Male, Non-Hispanic White",All (12 to 49),"Never used drug/
+used only marijuana",2,0.11536034674577753,0.10336808394054751,0.12854443403214647,488,3015799.9253037204
+"Male, Non-Hispanic White",All (12 to 49),"Never used drug/
+used only marijuana",3 or more,0.07495072436630999,0.0632848217912577,0.0885637928054543,312,1959394.153378365
+"Male, Non-Hispanic White",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",0,0.6786063066278425,0.6403183644058179,0.7146349118278454,1742,11081841.745563837
+"Male, Non-Hispanic White",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",1,0.1361664271395586,0.111990309151281,0.16459424657148997,261,2223638.0385527136
+"Male, Non-Hispanic White",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",2,0.1273562984692135,0.10735826639109176,0.1504515860185754,297,2079766.0309847647
+"Male, Non-Hispanic White",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",3 or more,0.05787096776338474,0.04319591028981961,0.07712972228001184,128,945050.0240755404
+"Female, Non-Hispanic White",All (12 to 49),"Never used drug/
+used only marijuana",0,0.5998350285215015,0.5759152565522204,0.6232881415613379,3963,17077267.317707032
+"Female, Non-Hispanic White",All (12 to 49),"Never used drug/
+used only marijuana",1,0.1566358860904945,0.14008349204632903,0.1747466718212592,756,4459414.290803458
+"Female, Non-Hispanic White",All (12 to 49),"Never used drug/
+used only marijuana",2,0.14326819033596291,0.12988404178560936,0.15778143927820343,750,4078836.7937129713
+"Female, Non-Hispanic White",All (12 to 49),"Never used drug/
+used only marijuana",3 or more,0.10026089505203264,0.088241599161894,0.11371314553832963,486,2854421.674133286
+"Female, Non-Hispanic White",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",0,0.6164320154354133,0.5863605440795888,0.6456385012331208,1679,8420022.960868487
+"Female, Non-Hispanic White",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",1,0.1600864996961065,0.13614406843947113,0.1873264187795891,371,2186667.741801468
+"Female, Non-Hispanic White",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",2,0.1517364022812596,0.12942784711710464,0.1771078692165727,362,2072611.3492099217
+"Female, Non-Hispanic White",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",3 or more,0.07174508258722212,0.05562043790243724,0.09208851090107219,164,979986.80728339
+"Male, Non-Hispanic Black",All (12 to 49),"Never used drug/
+used only marijuana",0,0.7512887564301877,0.7010732853402137,0.7955289836552006,723,5861780.169870615
+"Male, Non-Hispanic Black",All (12 to 49),"Never used drug/
+used only marijuana",1,0.1143732536435457,0.07671591613652792,0.16716852392406492,74,892374.4225282001
+"Male, Non-Hispanic Black",All (12 to 49),"Never used drug/
+used only marijuana",2,0.09180302492701768,0.06719518930702312,0.1242224985928811,56,716274.72984994
+"Male, Non-Hispanic Black",All (12 to 49),"Never used drug/
+used only marijuana",3 or more,0.04253496499924912,0.02453446926198216,0.07275705485448729,38,331870.55206769606
+"Male, Non-Hispanic Black",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",0,0.7168793475736388,0.5977793391703509,0.8118151560796273,153,1268180.9464795238
+"Male, Non-Hispanic Black",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",1,0.1206461002834496,0.0590962675436995,0.2305906885829957,16,213426.54962007003
+"Male, Non-Hispanic Black",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",2,0.06231569168208558,0.023067099877229463,0.15757414824758567,14,110238.31712462
+"Male, Non-Hispanic Black",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",3 or more,0.1001588604608252,0.04796573250486449,0.19737102390965944,11,177184.01135063
+"Female, Non-Hispanic Black",All (12 to 49),"Never used drug/
+used only marijuana",0,0.5862380534806032,0.5423800687281819,0.6287696675155235,730,4939811.401015501
+"Female, Non-Hispanic Black",All (12 to 49),"Never used drug/
+used only marijuana",1,0.1820348531234863,0.14960687657084884,0.21967601324443414,167,1533878.323835783
+"Female, Non-Hispanic Black",All (12 to 49),"Never used drug/
+used only marijuana",2,0.1211949514760287,0.09476812582294786,0.15373953699611353,117,1021223.715336001
+"Female, Non-Hispanic Black",All (12 to 49),"Never used drug/
+used only marijuana",3 or more,0.11053214191988098,0.08831510541663448,0.13749531061561357,98,931375.7979249927
+"Female, Non-Hispanic Black",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",0,0.5622692067054232,0.45846522909228893,0.6608929726342301,144,954663.0553890304
+"Female, Non-Hispanic Black",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",1,0.25739930466690114,0.16968613969930635,0.3702355378595409,43,437031.9478958328
+"Female, Non-Hispanic Black",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",2,0.07036254805851594,0.031309683388393995,0.15055566459297423,16,119466.83957333
+"Female, Non-Hispanic Black",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",3 or more,0.10996894056915946,0.049050506407147226,0.22837558546701242,14,186713.559180647
+"Male, Hispanic",All (12 to 49),"Never used drug/
+used only marijuana",0,0.67288628387151,0.6242904718888743,0.7180354351080833,1185,8559777.652543422
+"Male, Hispanic",All (12 to 49),"Never used drug/
+used only marijuana",1,0.11592229033309023,0.09276511646150871,0.14394305793051085,113,1474645.9453976825
+"Male, Hispanic",All (12 to 49),"Never used drug/
+used only marijuana",2,0.13149454057040794,0.0935777571003529,0.18169516761970125,117,1672740.3378324362
+"Male, Hispanic",All (12 to 49),"Never used drug/
+used only marijuana",3 or more,0.07969688522499381,0.0529507121693519,0.11826584833832703,70,1013823.038866529
+"Male, Hispanic",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",0,0.662850342866914,0.5909042256935425,0.7279685148481123,345,2794511.2761375946
+"Male, Hispanic",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",1,0.1261006522306419,0.09038196703299792,0.17324672445522946,47,531627.837835465
+"Male, Hispanic",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",2,0.1316488456740326,0.0817477818563885,0.2052036989759012,47,555018.47088951
+"Male, Hispanic",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",3 or more,0.07940015922841061,0.04938585473944421,0.12525223774976882,32,334743.19305808
+"Female, Hispanic",All (12 to 49),"Never used drug/
+used only marijuana",0,0.5763252067945631,0.5351067255057778,0.616508230428277,1171,7292945.637912809
+"Female, Hispanic",All (12 to 49),"Never used drug/
+used only marijuana",1,0.1279110817259804,0.10303810803414032,0.15773243286509286,208,1618614.8974856844
+"Female, Hispanic",All (12 to 49),"Never used drug/
+used only marijuana",2,0.1801763675079656,0.1504833158776769,0.21425073916269785,248,2279991.2930766316
+"Female, Hispanic",All (12 to 49),"Never used drug/
+used only marijuana",3 or more,0.11558734397148984,0.09228308114149636,0.14384404778793355,147,1462667.6155695028
+"Female, Hispanic",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",0,0.5629536562158806,0.48488569330928616,0.6380225685528282,325,1683539.44715352
+"Female, Hispanic",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",1,0.17349574401647386,0.1145686569424735,0.25403562275097713,65,518847.20125696104
+"Female, Hispanic",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",2,0.18984338939006976,0.13319208646298747,0.2632719761077637,70,567735.6053922588
+"Female, Hispanic",All (12 to 49),"Illicit drug except for 
+marijuana are ever used",3 or more,0.0737072103775757,0.04133930676017703,0.12803383318283676,32,220424.887271194
+Overall,12 to 17,"Never used drug/
+used only marijuana",0,0.9995385426022042,0.9976047424472565,0.9999112370207442,4883,21538430.05928425
+Overall,12 to 17,"Never used drug/
+used only marijuana",1,4.6145739779582e-4,8.876297925572997e-5,0.0023952575527433663,2,9943.6564616
+Overall,12 to 17,"Never used drug/
+used only marijuana",2,0,NA,NA,0,0
+Overall,12 to 17,"Never used drug/
+used only marijuana",3 or more,0,NA,NA,0,0
+Overall,12 to 17,"Illicit drug except for 
+marijuana are ever used",0,1,NA,NA,793,3214574.134098992
+Overall,12 to 17,"Illicit drug except for 
+marijuana are ever used",1,0,NA,NA,0,0
+Overall,12 to 17,"Illicit drug except for 
+marijuana are ever used",2,0,NA,NA,0,0
+Overall,12 to 17,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+"Male, Non-Hispanic White",12 to 17,"Never used drug/
+used only marijuana",0,0.9986003641909372,0.9896321447390565,0.9998125220959297,1449,5682708.131031279
+"Male, Non-Hispanic White",12 to 17,"Never used drug/
+used only marijuana",1,0.00139963580906215,1.874779040700363e-4,0.010367855260947223,1,7964.8697095
+"Male, Non-Hispanic White",12 to 17,"Never used drug/
+used only marijuana",2,0,NA,NA,0,0
+"Male, Non-Hispanic White",12 to 17,"Never used drug/
+used only marijuana",3 or more,0,NA,NA,0,0
+"Male, Non-Hispanic White",12 to 17,"Illicit drug except for 
+marijuana are ever used",0,1,NA,NA,219,743673.8174854786
+"Male, Non-Hispanic White",12 to 17,"Illicit drug except for 
+marijuana are ever used",1,0,NA,NA,0,0
+"Male, Non-Hispanic White",12 to 17,"Illicit drug except for 
+marijuana are ever used",2,0,NA,NA,0,0
+"Male, Non-Hispanic White",12 to 17,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+"Female, Non-Hispanic White",12 to 17,"Never used drug/
+used only marijuana",0,0.9996314606508716,0.9972368920658325,0.9999509468298368,1297,5367289.805003705
+"Female, Non-Hispanic White",12 to 17,"Never used drug/
+used only marijuana",1,3.6853934912816e-4,4.905317016317153e-5,0.0027631079341691733,1,1978.7867521
+"Female, Non-Hispanic White",12 to 17,"Never used drug/
+used only marijuana",2,0,NA,NA,0,0
+"Female, Non-Hispanic White",12 to 17,"Never used drug/
+used only marijuana",3 or more,0,NA,NA,0,0
+"Female, Non-Hispanic White",12 to 17,"Illicit drug except for 
+marijuana are ever used",0,1,NA,NA,233,932959.444810074
+"Female, Non-Hispanic White",12 to 17,"Illicit drug except for 
+marijuana are ever used",1,0,NA,NA,0,0
+"Female, Non-Hispanic White",12 to 17,"Illicit drug except for 
+marijuana are ever used",2,0,NA,NA,0,0
+"Female, Non-Hispanic White",12 to 17,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+"Male, Non-Hispanic Black",12 to 17,"Never used drug/
+used only marijuana",0,1,NA,NA,252,1548201.7654125022
+"Male, Non-Hispanic Black",12 to 17,"Never used drug/
+used only marijuana",1,0,NA,NA,0,0
+"Male, Non-Hispanic Black",12 to 17,"Never used drug/
+used only marijuana",2,0,NA,NA,0,0
+"Male, Non-Hispanic Black",12 to 17,"Never used drug/
+used only marijuana",3 or more,0,NA,NA,0,0
+"Male, Non-Hispanic Black",12 to 17,"Illicit drug except for 
+marijuana are ever used",0,1,NA,NA,31,144372.34509593004
+"Male, Non-Hispanic Black",12 to 17,"Illicit drug except for 
+marijuana are ever used",1,0,NA,NA,0,0
+"Male, Non-Hispanic Black",12 to 17,"Illicit drug except for 
+marijuana are ever used",2,0,NA,NA,0,0
+"Male, Non-Hispanic Black",12 to 17,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+"Female, Non-Hispanic Black",12 to 17,"Never used drug/
+used only marijuana",0,1,NA,NA,252,1171243.2481892873
+"Female, Non-Hispanic Black",12 to 17,"Never used drug/
+used only marijuana",1,0,NA,NA,0,0
+"Female, Non-Hispanic Black",12 to 17,"Never used drug/
+used only marijuana",2,0,NA,NA,0,0
+"Female, Non-Hispanic Black",12 to 17,"Never used drug/
+used only marijuana",3 or more,0,NA,NA,0,0
+"Female, Non-Hispanic Black",12 to 17,"Illicit drug except for 
+marijuana are ever used",0,1,NA,NA,45,191535.80678433095
+"Female, Non-Hispanic Black",12 to 17,"Illicit drug except for 
+marijuana are ever used",1,0,NA,NA,0,0
+"Female, Non-Hispanic Black",12 to 17,"Illicit drug except for 
+marijuana are ever used",2,0,NA,NA,0,0
+"Female, Non-Hispanic Black",12 to 17,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+"Male, Hispanic",12 to 17,"Never used drug/
+used only marijuana",0,1,NA,NA,528,2803115.758324998
+"Male, Hispanic",12 to 17,"Never used drug/
+used only marijuana",1,0,NA,NA,0,0
+"Male, Hispanic",12 to 17,"Never used drug/
+used only marijuana",2,0,NA,NA,0,0
+"Male, Hispanic",12 to 17,"Never used drug/
+used only marijuana",3 or more,0,NA,NA,0,0
+"Male, Hispanic",12 to 17,"Illicit drug except for 
+marijuana are ever used",0,1,NA,NA,76,456184.7654257028
+"Male, Hispanic",12 to 17,"Illicit drug except for 
+marijuana are ever used",1,0,NA,NA,0,0
+"Male, Hispanic",12 to 17,"Illicit drug except for 
+marijuana are ever used",2,0,NA,NA,0,0
+"Male, Hispanic",12 to 17,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+"Female, Hispanic",12 to 17,"Never used drug/
+used only marijuana",0,1,NA,NA,480,2681583.379833172
+"Female, Hispanic",12 to 17,"Never used drug/
+used only marijuana",1,0,NA,NA,0,0
+"Female, Hispanic",12 to 17,"Never used drug/
+used only marijuana",2,0,NA,NA,0,0
+"Female, Hispanic",12 to 17,"Never used drug/
+used only marijuana",3 or more,0,NA,NA,0,0
+"Female, Hispanic",12 to 17,"Illicit drug except for 
+marijuana are ever used",0,1,NA,NA,77,352231.18581119704
+"Female, Hispanic",12 to 17,"Illicit drug except for 
+marijuana are ever used",1,0,NA,NA,0,0
+"Female, Hispanic",12 to 17,"Illicit drug except for 
+marijuana are ever used",2,0,NA,NA,0,0
+"Female, Hispanic",12 to 17,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+Overall,18 to 25,"Never used drug/
+used only marijuana",0,0.8942035868192248,0.8770925944194612,0.9091790794371931,4905,20771256.36635612
+Overall,18 to 25,"Never used drug/
+used only marijuana",1,0.06633101573165535,0.05475720079221908,0.08014372861168505,350,1540788.4212407554
+Overall,18 to 25,"Never used drug/
+used only marijuana",2,0.03081617516192402,0.023976726233513136,0.03952759003492114,182,715822.0834203191
+Overall,18 to 25,"Never used drug/
+used only marijuana",3 or more,0.00864922228719496,0.005714424939023105,0.013071449019107029,71,200910.86207334496
+Overall,18 to 25,"Illicit drug except for 
+marijuana are ever used",0,0.8983275412800082,0.8741970395848466,0.9182622940199099,1826,7672400.717484087
+Overall,18 to 25,"Illicit drug except for 
+marijuana are ever used",1,0.06616283610504609,0.04840797897144861,0.08981510535163603,124,565080.9619838989
+Overall,18 to 25,"Illicit drug except for 
+marijuana are ever used",2,0.0286039428787735,0.019389937236962276,0.04200882942536917,50,244299.43620928103
+Overall,18 to 25,"Illicit drug except for 
+marijuana are ever used",3 or more,0.00690567973617204,0.0033035765111688055,0.0143787280121382,17,58979.75930586201
+"Male, Non-Hispanic White",18 to 25,"Never used drug/
+used only marijuana",0,0.9398080629871628,0.9129862528670647,0.9587357829492227,1288,5501651.408470015
+"Male, Non-Hispanic White",18 to 25,"Never used drug/
+used only marijuana",1,0.03102550674786464,0.016178543071562405,0.058684723767852984,49,181623.81194660705
+"Male, Non-Hispanic White",18 to 25,"Never used drug/
+used only marijuana",2,0.01910972198690942,0.011290373783723972,0.03216830375652886,30,111868.617673465
+"Male, Non-Hispanic White",18 to 25,"Never used drug/
+used only marijuana",3 or more,0.01005670827806281,0.0060835056214293744,0.016581560591304553,11,58872.130854799994
+"Male, Non-Hispanic White",18 to 25,"Illicit drug except for 
+marijuana are ever used",0,0.9402672739863857,0.9021534028843043,0.9641251490629388,610,2732244.795482393
+"Male, Non-Hispanic White",18 to 25,"Illicit drug except for 
+marijuana are ever used",1,0.03810137607479867,0.019809431652419968,0.07204258157803334,20,110715.63305583404
+"Male, Non-Hispanic White",18 to 25,"Illicit drug except for 
+marijuana are ever used",2,0.01203001600494281,0.0044969104779979075,0.031779534972717266,8,34957.0271437
+"Male, Non-Hispanic White",18 to 25,"Illicit drug except for 
+marijuana are ever used",3 or more,0.00960133393387344,0.0025859490897248774,0.034981171858804234,4,27899.72106473
+"Female, Non-Hispanic White",18 to 25,"Never used drug/
+used only marijuana",0,0.8659120277184951,0.8350193009046762,0.8917698496564164,1541,4886833.573554193
+"Female, Non-Hispanic White",18 to 25,"Never used drug/
+used only marijuana",1,0.07843357521407848,0.06100528496555919,0.10030897899383816,133,442645.2299778581
+"Female, Non-Hispanic White",18 to 25,"Never used drug/
+used only marijuana",2,0.04751035485646218,0.03177128636165191,0.07047879692812062,70,268127.927285833
+"Female, Non-Hispanic White",18 to 25,"Never used drug/
+used only marijuana",3 or more,0.00814404221096291,0.004442627152026133,0.014883222056851338,25,45961.457546487
+"Female, Non-Hispanic White",18 to 25,"Illicit drug except for 
+marijuana are ever used",0,0.8918855238515028,0.8558124389619373,0.9197797332923421,639,2475737.835927006
+"Female, Non-Hispanic White",18 to 25,"Illicit drug except for 
+marijuana are ever used",1,0.0506029685580266,0.035531745329310825,0.0715923101834986,48,140466.103013227
+"Female, Non-Hispanic White",18 to 25,"Illicit drug except for 
+marijuana are ever used",2,0.04707867019577391,0.026005129037331848,0.08376079762969237,27,130683.18966035
+"Female, Non-Hispanic White",18 to 25,"Illicit drug except for 
+marijuana are ever used",3 or more,0.01043283739469698,0.004563230653895372,0.023672871494238544,11,28959.961321702
+"Male, Non-Hispanic Black",18 to 25,"Never used drug/
+used only marijuana",0,0.9407830478223588,0.888033774278855,0.9695337832827228,274,1620143.8621862542
+"Male, Non-Hispanic Black",18 to 25,"Never used drug/
+used only marijuana",1,0.04468007694613206,0.021217766925390034,0.09165715203874758,14,76944.57568494999
+"Male, Non-Hispanic Black",18 to 25,"Never used drug/
+used only marijuana",2,0.013265137663394,0.004233811174663347,0.040772747488032855,4,22844.19496732
+"Male, Non-Hispanic Black",18 to 25,"Never used drug/
+used only marijuana",3 or more,0.00127173756811513,1.6929992338318982e-4,0.009484864787602871,1,2190.0881612
+"Male, Non-Hispanic Black",18 to 25,"Illicit drug except for 
+marijuana are ever used",0,0.7896613033356307,0.5412529213933944,0.9227550630339122,60,328076.85985877796
+"Male, Non-Hispanic Black",18 to 25,"Illicit drug except for 
+marijuana are ever used",1,0.2080872015502697,0.07556110042908913,0.4579141275090824,6,86453.0088698
+"Male, Non-Hispanic Black",18 to 25,"Illicit drug except for 
+marijuana are ever used",2,0.00115168409894062,1.4403826224670849e-4,0.009144032364993214,1,478.48476446
+"Male, Non-Hispanic Black",18 to 25,"Illicit drug except for 
+marijuana are ever used",3 or more,0.00109981101515926,1.353537536430651e-4,0.008875464176707884,1,456.93329883
+"Female, Non-Hispanic Black",18 to 25,"Never used drug/
+used only marijuana",0,0.8165291018665987,0.7483705296594261,0.8694463547879274,257,1446377.5810038743
+"Female, Non-Hispanic Black",18 to 25,"Never used drug/
+used only marijuana",1,0.12639118939030036,0.0816902209688332,0.19047890983359322,47,223885.93664652
+"Female, Non-Hispanic Black",18 to 25,"Never used drug/
+used only marijuana",2,0.04564167102575901,0.023083861359858147,0.08825185668538933,23,80848.42240196999
+"Female, Non-Hispanic Black",18 to 25,"Never used drug/
+used only marijuana",3 or more,0.01143803771734189,0.0029254208426982902,0.04363723348795803,8,20261.030852692
+"Female, Non-Hispanic Black",18 to 25,"Illicit drug except for 
+marijuana are ever used",0,0.7395637114551568,0.5427130955826894,0.8717067635668844,44,215841.034940389
+"Female, Non-Hispanic Black",18 to 25,"Illicit drug except for 
+marijuana are ever used",1,0.21241462219847165,0.09290395110962935,0.41527975041019477,10,61993.02532243
+"Female, Non-Hispanic Black",18 to 25,"Illicit drug except for 
+marijuana are ever used",2,0.04232302489446421,0.008116051405991651,0.19269449034389505,3,12351.93851934
+"Female, Non-Hispanic Black",18 to 25,"Illicit drug except for 
+marijuana are ever used",3 or more,0.00569864145190744,7.363323146841876e-4,0.04267487841127817,1,1663.1436206
+"Male, Hispanic",18 to 25,"Never used drug/
+used only marijuana",0,0.9106922738481806,0.8526573077699329,0.9472818807957238,405,2669372.876670682
+"Male, Hispanic",18 to 25,"Never used drug/
+used only marijuana",1,0.06995853251989904,0.03511733654762487,0.1345467745052185,21,205058.738898925
+"Male, Hispanic",18 to 25,"Never used drug/
+used only marijuana",2,0.01786422330523554,0.006512408335085864,0.04804650176992987,8,52362.663572716
+"Male, Hispanic",18 to 25,"Never used drug/
+used only marijuana",3 or more,0.0014849703266844,1.8842402677936589e-4,0.011599550306067293,2,4352.66623704
+"Male, Hispanic",18 to 25,"Illicit drug except for 
+marijuana are ever used",0,0.9584065766449932,0.8934552896567987,0.9844516226152472,128,730723.2068959019
+"Male, Hispanic",18 to 25,"Illicit drug except for 
+marijuana are ever used",1,0.03941146021447226,0.014090087126970461,0.10537440245707243,8,30048.69676206
+"Male, Hispanic",18 to 25,"Illicit drug except for 
+marijuana are ever used",2,0.00218196314053453,2.8200380517398615e-4,0.016669182869815148,1,1663.6061795
+"Male, Hispanic",18 to 25,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+"Female, Hispanic",18 to 25,"Never used drug/
+used only marijuana",0,0.7948889671656897,0.7498233354424311,0.8336377991501169,442,2292324.9489567676
+"Female, Hispanic",18 to 25,"Never used drug/
+used only marijuana",1,0.12408705875982516,0.09846999276673671,0.15522100253750437,64,357846.029304015
+"Female, Hispanic",18 to 25,"Never used drug/
+used only marijuana",2,0.05959848966514987,0.03834475580359056,0.09151170297046275,41,171871.934852365
+"Female, Hispanic",18 to 25,"Never used drug/
+used only marijuana",3 or more,0.02142548440933475,0.008161879501173062,0.05504707981709513,13,61787.462757379995
+"Female, Hispanic",18 to 25,"Illicit drug except for 
+marijuana are ever used",0,0.7679538113865003,0.5966750243376983,0.8810023249395977,129,514280.9201941391
+"Female, Hispanic",18 to 25,"Illicit drug except for 
+marijuana are ever used",1,0.15647011120852247,0.06523522813641418,0.3302254924577763,19,104784.41747676802
+"Female, Hispanic",18 to 25,"Illicit drug except for 
+marijuana are ever used",2,0.07557607740497704,0.025857969502440837,0.2011497810856364,7,50611.55248689
+"Female, Hispanic",18 to 25,"Illicit drug except for 
+marijuana are ever used",3 or more,0,NA,NA,0,0
+Overall,26 to 34,"Never used drug/
+used only marijuana",0,0.5238657286935021,0.4956929952944862,0.5518873921157035,1831,13035462.022629287
+Overall,26 to 34,"Never used drug/
+used only marijuana",1,0.17986528545121244,0.15869654901978786,0.20317581378530983,649,4475626.0416883
+Overall,26 to 34,"Never used drug/
+used only marijuana",2,0.17408714236051365,0.15197742189344005,0.19865987950906897,601,4331847.281798874
+Overall,26 to 34,"Never used drug/
+used only marijuana",3 or more,0.12218184349476906,0.10453681142666885,0.14233182320326473,441,3040276.7226308393
+Overall,26 to 34,"Illicit drug except for 
+marijuana are ever used",0,0.6313646944703236,0.5900465806512577,0.6708415509678829,1162,8368915.369743809
+Overall,26 to 34,"Illicit drug except for 
+marijuana are ever used",1,0.15537612773226253,0.127907081340053,0.18747620116050312,278,2059553.9707216388
+Overall,26 to 34,"Illicit drug except for 
+marijuana are ever used",2,0.1222950875594425,0.10115058616122964,0.14713609820682216,249,1621055.5434668676
+Overall,26 to 34,"Illicit drug except for 
+marijuana are ever used",3 or more,0.0909640902379723,0.0675394651102918,0.12145483729933562,160,1205754.4230058491
+"Male, Non-Hispanic White",26 to 34,"Never used drug/
+used only marijuana",0,0.6337703537553316,0.5894298851678614,0.675954781922776,524,3667155.8997302833
+"Male, Non-Hispanic White",26 to 34,"Never used drug/
+used only marijuana",1,0.13525299243149955,0.10370651055330614,0.17452703273551778,130,782608.0948917791
+"Male, Non-Hispanic White",26 to 34,"Never used drug/
+used only marijuana",2,0.1427571884498548,0.11657015805251424,0.17367054992783212,138,826029.2750375259
+"Male, Non-Hispanic White",26 to 34,"Never used drug/
+used only marijuana",3 or more,0.08821946536331492,0.06393419217798009,0.12054154132375686,87,510460.18634539214
+"Male, Non-Hispanic White",26 to 34,"Illicit drug except for 
+marijuana are ever used",0,0.7086200686971648,0.6442709451575572,0.7655645018260938,435,3420524.5911063286
+"Male, Non-Hispanic White",26 to 34,"Illicit drug except for 
+marijuana are ever used",1,0.1257798401345133,0.08465243031823351,0.1828960596093622,77,607142.04303659
+"Male, Non-Hispanic White",26 to 34,"Illicit drug except for 
+marijuana are ever used",2,0.09053461033164643,0.06329975147050221,0.1278874909848985,66,437012.5468715289
+"Male, Non-Hispanic White",26 to 34,"Illicit drug except for 
+marijuana are ever used",3 or more,0.07506548083667587,0.04523535352749457,0.12205219736212175,41,362342.7200095299
+"Female, Non-Hispanic White",26 to 34,"Never used drug/
+used only marijuana",0,0.47344805892763414,0.42983298803834724,0.5174721452040084,593,3069577.7098251297
+"Female, Non-Hispanic White",26 to 34,"Never used drug/
+used only marijuana",1,0.2287303109232044,0.19473057042426065,0.2667002964951777,260,1482961.9653769778
+"Female, Non-Hispanic White",26 to 34,"Never used drug/
+used only marijuana",2,0.16248397438429915,0.1351653136180188,0.1940849732222252,232,1053457.0299084831
+"Female, Non-Hispanic White",26 to 34,"Never used drug/
+used only marijuana",3 or more,0.1353376557648619,0.11294946927225234,0.16135627971731525,180,877455.1793004696
+"Female, Non-Hispanic White",26 to 34,"Illicit drug except for 
+marijuana are ever used",0,0.5755636360960498,0.51509853680754,0.6338485286289123,406,2375817.027531912
+"Female, Non-Hispanic White",26 to 34,"Illicit drug except for 
+marijuana are ever used",1,0.19053311742133375,0.14732072043234068,0.24281124979548543,121,786484.4063963768
+"Female, Non-Hispanic White",26 to 34,"Illicit drug except for 
+marijuana are ever used",2,0.12486350340565316,0.08821778644125948,0.17382969930204786,106,515412.75178638
+"Female, Non-Hispanic White",26 to 34,"Illicit drug except for 
+marijuana are ever used",3 or more,0.10903974307696306,0.06924097715241764,0.16759521345951978,71,450095.2840542591
+"Male, Non-Hispanic Black",26 to 34,"Never used drug/
+used only marijuana",0,0.6376686477830756,0.5206927008172215,0.7403332234568003,99,1335028.6443289
+"Male, Non-Hispanic Black",26 to 34,"Never used drug/
+used only marijuana",1,0.1683643828180725,0.09035062503660718,0.2921083335939057,25,352489.14076036995
+"Male, Non-Hispanic Black",26 to 34,"Never used drug/
+used only marijuana",2,0.14989625845952995,0.08781270659542512,0.24412589662982775,22,313824.11447846005
+"Male, Non-Hispanic Black",26 to 34,"Never used drug/
+used only marijuana",3 or more,0.04407071093932183,0.017941216863145388,0.10421665900322218,8,92266.8249168
+"Male, Non-Hispanic Black",26 to 34,"Illicit drug except for 
+marijuana are ever used",0,0.7865328604934007,0.5765017745680386,0.9088666110948878,24,398444.88745126297
+"Male, Non-Hispanic Black",26 to 34,"Illicit drug except for 
+marijuana are ever used",1,0.1484175413563728,0.047212821218700796,0.38003314470884686,5,75185.93758998999
+"Male, Non-Hispanic Black",26 to 34,"Illicit drug except for 
+marijuana are ever used",2,0.02673831935750164,0.003659620538007169,0.1704585304880692,3,13545.2022187
+"Male, Non-Hispanic Black",26 to 34,"Illicit drug except for 
+marijuana are ever used",3 or more,0.03831127879272496,0.009637701228406995,0.14021507769183197,2,19407.8771955
+"Female, Non-Hispanic Black",26 to 34,"Never used drug/
+used only marijuana",0,0.33739186457294296,0.25382897424816697,0.432518438617056,82,733369.6560990738
+"Female, Non-Hispanic Black",26 to 34,"Never used drug/
+used only marijuana",1,0.20879499996736575,0.15186654021740106,0.28001796745215674,55,453845.90857011697
+"Female, Non-Hispanic Black",26 to 34,"Never used drug/
+used only marijuana",2,0.24392334481041283,0.1777758660969443,0.3249560069499375,43,530202.409369221
+"Female, Non-Hispanic Black",26 to 34,"Never used drug/
+used only marijuana",3 or more,0.2098897906492778,0.15899815970559478,0.2718060852034112,52,456225.5932934299
+"Female, Non-Hispanic Black",26 to 34,"Illicit drug except for 
+marijuana are ever used",0,0.45072881848963897,0.26379611797363456,0.6526884645662054,24,230862.17133214
+"Female, Non-Hispanic Black",26 to 34,"Illicit drug except for 
+marijuana are ever used",1,0.2781551495539357,0.11645819926083797,0.5297507761856366,14,142470.37056210302
+"Female, Non-Hispanic Black",26 to 34,"Illicit drug except for 
+marijuana are ever used",2,0.13573345410572826,0.04365773694115594,0.35077349379290496,8,69522.3350534
+"Female, Non-Hispanic Black",26 to 34,"Illicit drug except for 
+marijuana are ever used",3 or more,0.13538257785069707,0.047226231127831655,0.3309399496570964,6,69342.617114847
+"Male, Hispanic",26 to 34,"Never used drug/
+used only marijuana",0,0.5782081130604266,0.4627773707488732,0.6856823005521983,135,1540797.4995224085
+"Male, Hispanic",26 to 34,"Never used drug/
+used only marijuana",1,0.1571670415391495,0.1072468849845219,0.22448079063026743,35,418815.61178569705
+"Male, Hispanic",26 to 34,"Never used drug/
+used only marijuana",2,0.1709750905375131,0.08827858938969847,0.3052061397251763,32,455611.0266015699
+"Male, Hispanic",26 to 34,"Never used drug/
+used only marijuana",3 or more,0.093649754862911,0.042577542652848,0.19359617528455234,22,249556.00736888996
+"Male, Hispanic",26 to 34,"Illicit drug except for 
+marijuana are ever used",0,0.6541349700539233,0.5136945484804779,0.7720174902235741,82,831408.2075940999
+"Male, Hispanic",26 to 34,"Illicit drug except for 
+marijuana are ever used",1,0.11113470959650856,0.04580491244260672,0.2456537497138838,14,141252.66793106502
+"Male, Hispanic",26 to 34,"Illicit drug except for 
+marijuana are ever used",2,0.14116236192249054,0.07082413548782014,0.2616828627995414,20,179417.9361731
+"Male, Hispanic",26 to 34,"Illicit drug except for 
+marijuana are ever used",3 or more,0.09356795842707769,0.038096181788433506,0.21200937200097908,11,118925.25574298998
+"Female, Hispanic",26 to 34,"Never used drug/
+used only marijuana",0,0.4073313398586436,0.3330096143841193,0.4861503442128372,137,1104797.093463905
+"Female, Hispanic",26 to 34,"Never used drug/
+used only marijuana",1,0.12658095937172054,0.08156732107923531,0.191262620107127,56,343323.143390539
+"Female, Hispanic",26 to 34,"Never used drug/
+used only marijuana",2,0.25542723476183077,0.19053145042660116,0.33332484553407177,79,692790.4605973198
+"Female, Hispanic",26 to 34,"Never used drug/
+used only marijuana",3 or more,0.21066046600780544,0.16257035792891225,0.2684165142255195,66,571370.3999155627
+"Female, Hispanic",26 to 34,"Illicit drug except for 
+marijuana are ever used",0,0.42281813105916016,0.2792631626539724,0.5807100626379766,65,400171.451372465
+"Female, Hispanic",26 to 34,"Illicit drug except for 
+marijuana are ever used",1,0.2030552392293649,0.10104172405302278,0.3661169766053889,22,192179.34100330403
+"Female, Hispanic",26 to 34,"Illicit drug except for 
+marijuana are ever used",2,0.2557196098733897,0.16819355116402046,0.36860916523927173,27,242022.94062247005
+"Female, Hispanic",26 to 34,"Illicit drug except for 
+marijuana are ever used",3 or more,0.1184070198380854,0.046694508674143743,0.26915851812020647,17,112064.98846821
+Overall,35 to 49,"Never used drug/
+used only marijuana",0,0.38466134540339025,0.36046337751944185,0.409443745841371,1651,14871985.196048113
+Overall,35 to 49,"Never used drug/
+used only marijuana",1,0.21270409438592633,0.19220397977287795,0.2347552882420981,948,8223680.857583868
+Overall,35 to 49,"Never used drug/
+used only marijuana",2,0.24371416605001808,0.2230402160193824,0.2656492173861828,1221,9422609.037469288
+Overall,35 to 49,"Never used drug/
+used only marijuana",3 or more,0.15892039416066409,0.14231856267068904,0.1770590727385309,743,6144266.32036289
+Overall,35 to 49,"Illicit drug except for 
+marijuana are ever used",0,0.4964474658752911,0.4619848550173374,0.5309438654825144,1143,9442214.405752692
+Overall,35 to 49,"Illicit drug except for 
+marijuana are ever used",1,0.1974982263216905,0.1726848671780992,0.22490777349145727,468,3756330.1776500954
+Overall,35 to 49,"Illicit drug except for 
+marijuana are ever used",2,0.21531372629430967,0.18701956119008925,0.2465901304338887,575,4095173.221577341
+Overall,35 to 49,"Illicit drug except for 
+marijuana are ever used",3 or more,0.09074058150870766,0.07671020663466036,0.10703962282859897,234,1725846.3076194334
+"Male, Non-Hispanic White",35 to 49,"Never used drug/
+used only marijuana",0,0.4072130013345217,0.3702711401420539,0.4452346711095641,470,3588152.7804602566
+"Male, Non-Hispanic White",35 to 49,"Never used drug/
+used only marijuana",1,0.1992140206105331,0.16441352342637416,0.23927127404329415,226,1755372.1016219254
+"Male, Non-Hispanic White",35 to 49,"Never used drug/
+used only marijuana",2,0.2358173620083847,0.20165853339749942,0.27377807256543735,320,2077902.03259273
+"Male, Non-Hispanic White",35 to 49,"Never used drug/
+used only marijuana",3 or more,0.15775561604656155,0.1283741711990296,0.1923774934510897,214,1390061.8361781742
+"Male, Non-Hispanic White",35 to 49,"Illicit drug except for 
+marijuana are ever used",0,0.5329149750349762,0.4716224683119567,0.5932297920228831,478,4185398.54148965
+"Male, Non-Hispanic White",35 to 49,"Illicit drug except for 
+marijuana are ever used",1,0.1917267606212423,0.15443636391266397,0.235513422219791,164,1505780.36246029
+"Male, Non-Hispanic White",35 to 49,"Illicit drug except for 
+marijuana are ever used",2,0.2047161818005241,0.1677220442507702,0.24744408308514962,223,1607796.4569695364
+"Male, Non-Hispanic White",35 to 49,"Illicit drug except for 
+marijuana are ever used",3 or more,0.07064208254325777,0.052800249576661656,0.09391510951835687,83,554807.5830012799
+"Female, Non-Hispanic White",35 to 49,"Never used drug/
+used only marijuana",0,0.342052621179408,0.30368343101315437,0.3826058823454283,532,3753566.229324043
+"Female, Non-Hispanic White",35 to 49,"Never used drug/
+used only marijuana",1,0.2307188568035014,0.19585229380482522,0.2697106703803841,362,2531828.3086965214
+"Female, Non-Hispanic White",35 to 49,"Never used drug/
+used only marijuana",2,0.25126111018501596,0.22340769270205801,0.28132916074608033,448,2757251.836518657
+"Female, Non-Hispanic White",35 to 49,"Never used drug/
+used only marijuana",3 or more,0.17596741183207415,0.14827808845301735,0.20756730467885845,281,1931005.0372863295
+"Female, Non-Hispanic White",35 to 49,"Illicit drug except for 
+marijuana are ever used",0,0.45262866700287674,0.3998905642862346,0.5064522414926245,401,2635508.6525994856
+"Female, Non-Hispanic White",35 to 49,"Illicit drug except for 
+marijuana are ever used",1,0.21634690181559155,0.17514481736519155,0.2641378025062232,202,1259717.232391865
+"Female, Non-Hispanic White",35 to 49,"Illicit drug except for 
+marijuana are ever used",2,0.24499322619869313,0.20307496405256223,0.2923895186079543,229,1426515.407763192
+"Female, Non-Hispanic White",35 to 49,"Illicit drug except for 
+marijuana are ever used",3 or more,0.08603120498283766,0.06141676733582885,0.11925710475104725,82,500931.561907429
+"Male, Non-Hispanic Black",35 to 49,"Never used drug/
+used only marijuana",0,0.5570966492946794,0.4604042892708369,0.649647362730273,98,1358405.8979429598
+"Male, Non-Hispanic Black",35 to 49,"Never used drug/
+used only marijuana",1,0.18985688782081164,0.11353645202790211,0.30011198868458344,35,462940.7060828799
+"Male, Non-Hispanic Black",35 to 49,"Never used drug/
+used only marijuana",2,0.1556806144453188,0.10244393632210627,0.229508482749449,30,379606.4204041601
+"Male, Non-Hispanic Black",35 to 49,"Never used drug/
+used only marijuana",3 or more,0.09736584843919018,0.04919456909139456,0.18359813449571893,29,237413.63898969593
+"Male, Non-Hispanic Black",35 to 49,"Illicit drug except for 
+marijuana are ever used",0,0.5654457266274089,0.3616804969370291,0.7492590911550353,38,397286.8540735532
+"Male, Non-Hispanic Black",35 to 49,"Illicit drug except for 
+marijuana are ever used",1,0.0737076462485592,0.017371688173856318,0.26370931987682517,5,51787.60316028
+"Male, Non-Hispanic Black",35 to 49,"Illicit drug except for 
+marijuana are ever used",2,0.13693921884073448,0.047310539207357345,0.33640862601511345,10,96214.63014146
+"Male, Non-Hispanic Black",35 to 49,"Illicit drug except for 
+marijuana are ever used",3 or more,0.22390740828329733,0.09646768826650165,0.4380758796688027,8,157319.2008563
+"Female, Non-Hispanic Black",35 to 49,"Never used drug/
+used only marijuana",0,0.4800020479920323,0.3978322545355014,0.5632681971243158,139,1588820.9157232658
+"Female, Non-Hispanic Black",35 to 49,"Never used drug/
+used only marijuana",1,0.25865222382931813,0.1911966534398904,0.339904999119852,65,856146.4786191451
+"Female, Non-Hispanic Black",35 to 49,"Never used drug/
+used only marijuana",2,0.1239181975724938,0.08431757314150842,0.17849222943721385,51,410172.88356481
+"Female, Non-Hispanic Black",35 to 49,"Never used drug/
+used only marijuana",3 or more,0.137427530606157,0.08832776545564491,0.2076056448928005,38,454889.17377887096
+"Female, Non-Hispanic Black",35 to 49,"Illicit drug except for 
+marijuana are ever used",0,0.4505584718913872,0.2584674395709521,0.6586132189702504,31,316424.04233217007
+"Female, Non-Hispanic Black",35 to 49,"Illicit drug except for 
+marijuana are ever used",1,0.33115603552717343,0.18626963837317714,0.5171211827709036,19,232568.5520113
+"Female, Non-Hispanic Black",35 to 49,"Illicit drug except for 
+marijuana are ever used",2,0.05352832536638111,0.010750838653214505,0.22739177220537665,5,37592.56600059
+"Female, Non-Hispanic Black",35 to 49,"Illicit drug except for 
+marijuana are ever used",3 or more,0.16475716721505804,0.06487889824691476,0.3593132596530701,7,115707.7984452
+"Male, Hispanic",35 to 49,"Never used drug/
+used only marijuana",0,0.3578231168803432,0.27093160775610176,0.4551833801901846,117,1546491.5180253263
+"Male, Hispanic",35 to 49,"Never used drug/
+used only marijuana",1,0.19684928124416765,0.14381906855453908,0.26341723833658137,57,850771.5947130601
+"Male, Hispanic",35 to 49,"Never used drug/
+used only marijuana",2,0.26950062605935504,0.1912035193841113,0.3653758434147117,77,1164766.6476581504
+"Male, Hispanic",35 to 49,"Never used drug/
+used only marijuana",3 or more,0.17582697581613377,0.10943163952036325,0.2702804162427063,46,759914.365260599
+"Male, Hispanic",35 to 49,"Illicit drug except for 
+marijuana are ever used",0,0.44963545837006413,0.3474055865924153,0.5563040555950578,59,776195.0962218901
+"Male, Hispanic",35 to 49,"Illicit drug except for 
+marijuana are ever used",1,0.20873045926575837,0.1388069982407681,0.3015441218838641,25,360326.4731423399
+"Male, Hispanic",35 to 49,"Illicit drug except for 
+marijuana are ever used",2,0.2166147442602791,0.12130523120385409,0.3564327959895003,26,373936.92853691
+"Male, Hispanic",35 to 49,"Illicit drug except for 
+marijuana are ever used",3 or more,0.1250193381038982,0.07125463911331689,0.2101714887622955,21,215817.93731509004
+"Female, Hispanic",35 to 49,"Never used drug/
+used only marijuana",0,0.2774439376310792,0.21160320542364625,0.3545579587662554,112,1214240.215658964
+"Female, Hispanic",35 to 49,"Never used drug/
+used only marijuana",1,0.2096288289304542,0.15763414798117423,0.27321120511783864,88,917445.724791131
+"Female, Hispanic",35 to 49,"Never used drug/
+used only marijuana",2,0.323391053381947,0.2558514021731422,0.39919546468751893,128,1415328.8976269476
+"Female, Hispanic",35 to 49,"Never used drug/
+used only marijuana",3 or more,0.18953618005651995,0.13310323434180507,0.2626464486269359,68,829509.7528965598
+"Female, Hispanic",35 to 49,"Illicit drug except for 
+marijuana are ever used",0,0.4078025333976448,0.27102894263394334,0.5605253124729438,54,416855.8897757201
+"Female, Hispanic",35 to 49,"Illicit drug except for 
+marijuana are ever used",1,0.21706453549712323,0.12388811010062117,0.3521513300149096,24,221883.442776889
+"Female, Hispanic",35 to 49,"Illicit drug except for 
+marijuana are ever used",2,0.2691264134227198,0.1601670758402786,0.41553425198597443,36,275101.11228289903
+"Female, Hispanic",35 to 49,"Illicit drug except for 
+marijuana are ever used",3 or more,0.10600651768251236,0.0479946886853721,0.2180757229004278,15,108359.898802984

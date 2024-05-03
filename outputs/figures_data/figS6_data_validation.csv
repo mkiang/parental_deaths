@@ -1,0 +1,41 @@
+source,race_cat,year,median,lower95,upper95
+Matrix Projection Model,Hispanic,2016,2.116311110412474,2.078391292644896,2.155530079677885
+Matrix Projection Model,Hispanic,2017,2.150991521584423,2.109682030835021,2.189960538537948
+Matrix Projection Model,Hispanic,2018,2.186003884669354,2.1406280332191123,2.226348334758658
+Matrix Projection Model,Hispanic,2019,2.233128784286701,2.1878752462621005,2.2746301605269026
+Matrix Projection Model,Hispanic,2020,2.414381369590335,2.364493878354903,2.4610265874486963
+National Survey of Children's Health,Hispanic,2016,3.1,2.4,4
+National Survey of Children's Health,Hispanic,2017,3.3,2,5.3
+National Survey of Children's Health,Hispanic,2018,3.2,2.2,4.7
+National Survey of Children's Health,Hispanic,2019,2.8,1.8,4.1
+National Survey of Children's Health,Hispanic,2020,2.6,2,3.5
+Matrix Projection Model,Non-Hispanic Black,2016,4.717891896898483,4.658581516107132,4.774147689865382
+Matrix Projection Model,Non-Hispanic Black,2017,4.737555460237544,4.679161070311029,4.803088074054424
+Matrix Projection Model,Non-Hispanic Black,2018,4.754280506317829,4.693333440965334,4.82099820523894
+Matrix Projection Model,Non-Hispanic Black,2019,4.795143188338775,4.7314502835587255,4.860693928568395
+Matrix Projection Model,Non-Hispanic Black,2020,5.039831177596557,4.969300704413831,5.113232107128642
+National Survey of Children's Health,Non-Hispanic Black,2016,6.8,5.5,8.4
+National Survey of Children's Health,Non-Hispanic Black,2017,8.5,6.3,11
+National Survey of Children's Health,Non-Hispanic Black,2018,5.4,4.1,7.1
+National Survey of Children's Health,Non-Hispanic Black,2019,5.8,4.1,8.1
+National Survey of Children's Health,Non-Hispanic Black,2020,5.2,4.1,6.6
+Matrix Projection Model,Non-Hispanic White,2016,3.5668018143271043,3.5238848182167986,3.6041052879522013
+Matrix Projection Model,Non-Hispanic White,2017,3.6305724734117875,3.5872846523811086,3.6680300261231875
+Matrix Projection Model,Non-Hispanic White,2018,3.67960743801934,3.6374193101381893,3.716087195718603
+Matrix Projection Model,Non-Hispanic White,2019,3.7273920095679327,3.6853181236136248,3.7657580229264207
+Matrix Projection Model,Non-Hispanic White,2020,3.854706484950088,3.8139211111567373,3.897729283782942
+National Survey of Children's Health,Non-Hispanic White,2016,2.7,2.4,3
+National Survey of Children's Health,Non-Hispanic White,2017,2.6,2.2,3.2
+National Survey of Children's Health,Non-Hispanic White,2018,2.6,2.2,3
+National Survey of Children's Health,Non-Hispanic White,2019,2.5,2.2,3
+National Survey of Children's Health,Non-Hispanic White,2020,2.3,2,2.7
+Matrix Projection Model,Total,2016,3.323620083297013,3.2881947832561758,3.3622521339229134
+Matrix Projection Model,Total,2017,3.3693176726190375,3.3335962124369165,3.4095662177757884
+Matrix Projection Model,Total,2018,3.406471970415639,3.366952949552403,3.4460291842712323
+Matrix Projection Model,Total,2019,3.449024396205727,3.410160264837845,3.4871665332259356
+Matrix Projection Model,Total,2020,3.601484501008238,3.5652720916877203,3.642667531431086
+National Survey of Children's Health,Total,2016,3.3,3,3.7
+National Survey of Children's Health,Total,2017,3.6,3,4.2
+National Survey of Children's Health,Total,2018,3.1,2.7,3.5
+National Survey of Children's Health,Total,2019,3,2.6,3.5
+National Survey of Children's Health,Total,2020,2.8,2.5,3.2

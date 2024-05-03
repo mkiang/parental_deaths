@@ -1,0 +1,261 @@
+---
+title: "Looking at household composition in NSDUH"
+author: "Mathew Kiang"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    code_folding: 'hide'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(error = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+```
+
+```{r}
+library(tidyverse)
+library(here)
+library(fs)
+library(janitor)
+library(knitr)
+library(kableExtra)
+
+read_nsduh <- function(f_path, age_x) {
+    res <- read_csv(f_path) |>
+        janitor::clean_names()
+    
+    if (has_name(res, "illicit_drug_other_than_marijuana_ever_used")) {
+           res <- res |>
+            filter(illicit_drug_other_than_marijuana_ever_used != "Overall") |>
+            rename(everuse = illicit_drug_other_than_marijuana_ever_used)
+    } else {
+        res <- res |>
+            filter(rc_illicit_drug_other_than_marijuana_ever_used != "Overall") |>
+            rename(everuse = rc_illicit_drug_other_than_marijuana_ever_used)
+    }
+    
+    res <- res |>
+        filter(recoded_number_rs_children_18_in_household != "Overall") |>
+        rename(racegender = rc_combined_gender_by_race_indicator,
+               n_kids = recoded_number_rs_children_18_in_household) |>
+        mutate(
+            racegender_cat = factor(
+                racegender,
+                levels = c(
+                    "Overall",
+                    "1 - Male, White, Not Hisp",
+                    "2 - Female, White, Not Hisp",
+                    "3 - Male, Black, Not Hisp",
+                    "4 - Female, Black, Not Hisp",
+                    "5 - Male, Hispanic",
+                    "6 - Female, Hispanic",
+                    "7 - Male or Female, Other Races"
+                ),
+                labels = c(
+                    "Overall",
+                    "Male, Non-Hispanic White",
+                    "Female, Non-Hispanic White",
+                    "Male, Non-Hispanic Black",
+                    "Female, Non-Hispanic Black",
+                    "Male, Hispanic",
+                    "Female, Hispanic",
+                    "Male or Female, Other Races"
+                ),
+                ordered = TRUE
+            ),
+            n_kids_cat = factor(
+                n_kids,
+                levels = c("0", "1", "2", "3 - 3 or more"),
+                labels = c("0", "1", "2", "3 or more"),
+                ordered = TRUE
+            ),
+            everuse_cat = factor(
+                everuse,
+                levels = c(
+                    "0 - Never used drug/used only marijuana",
+                    "1 - Illicit drug except for marijuana are ever used"
+                ),
+                labels = c(
+                    "Never used drug/\nused only marijuana",
+                    "Illicit drug except for \nmarijuana are ever used"
+                ),
+                ordered = TRUE
+            )
+        ) |>
+        select(
+            racegender,
+            racegender_cat,
+            everuse,
+            everuse_cat,
+            n_kids,
+            n_kids_cat,
+            starts_with("column_"),
+            unweighted_count,
+            weighted_count
+        ) |>
+        mutate(column_percent_ci_lower = as.numeric(column_percent_ci_lower),
+               column_percent_ci_upper = as.numeric(column_percent_ci_upper))
+    
+    res |> 
+        mutate(age_group = age_x, .before = 1)
+}
+```
+
+```{r}
+nsduh_2020 <- bind_rows(
+    read_nsduh(
+        here(
+            "inputs",
+            "data_public",
+            "nsduh",
+            "2020_ages12to17_SEXRACE x ILLEMFLAG x NRCH17_2.csv"
+        ),
+        "12 to 17"
+    ),
+    read_nsduh(
+        here(
+            "inputs",
+            "data_public",
+            "nsduh",
+            "2020_ages18to25_SEXRACE x ILLEMFLAG x NRCH17_2.csv"
+        ),
+        "18 to 25"
+    ),
+    read_nsduh(
+        here(
+            "inputs",
+            "data_public",
+            "nsduh",
+            "2020_ages26to34SEXRACE x ILLEMFLAG x NRCH17_2.csv"
+        ),
+        "26 to 34"
+    ),
+    read_nsduh(
+        here(
+            "inputs",
+            "data_public",
+            "nsduh",
+            "2020_ages35to49_SEXRACE x ILLEMFLAG x NRCH17_2.csv"
+        ),
+        "35 to 49"
+    ),
+    read_nsduh(
+        here(
+            "inputs",
+            "data_public",
+            "nsduh",
+            "2020_ages12to49_SEXRACE x ILLEMFLAG x NRCH17_2.csv"
+        ),
+        "12 to 49"
+    )
+) |>
+    mutate(
+        age_cat = factor(
+            age_group,
+            levels = c("12 to 17",
+                       "18 to 25",
+                       "26 to 34",
+                       "35 to 49",
+                       "12 to 49"),
+            labels = c("12 to 17",
+                       "18 to 25",
+                       "26 to 34",
+                       "35 to 49",
+                       "All (12 to 49)"),
+            ordered = TRUE
+        ),
+        age_cat_rev = factor(
+            age_group,
+            levels = rev(c(
+                "12 to 17",
+                "18 to 25",
+                "26 to 34",
+                "35 to 49",
+                "12 to 49"
+            )),
+            labels = rev(c(
+                "12 to 17",
+                "18 to 25",
+                "26 to 34",
+                "35 to 49",
+                "All (12 to 49)"
+            )),
+            ordered = TRUE
+        )
+    )
+```
+
+## Comparing differences in number of children across all race/ethnicity among 15-49 year olds
+```{r}
+nsduh_wide <- nsduh_2020 |>
+    filter(racegender == "Overall",
+           racegender != "7 - Male or Female, Other Races",
+           age_group == "12 to 49") |>
+    mutate(drug_use = ifelse(grepl("\\<Never", everuse), "never", "used")) |>
+    select(-everuse, -everuse_cat, n_kids, -racegender) |>
+    pivot_wider(names_from = "drug_use",
+                values_from = column_percent:weighted_count) |>
+    mutate(
+        prop_never = sprintf(
+            "%0.3f (%0.3f)",
+            round(column_percent_never, 3),
+            round(column_percent_se_never, 3)
+        ),
+        prop_used = sprintf(
+            "%0.3f (%0.3f)",
+            round(column_percent_used, 2),
+            round(column_percent_se_used, 2)
+        )
+    ) |>
+    mutate(
+        prop_diff = column_percent_used - column_percent_never,
+        prop_diff_se = sqrt(column_percent_se_never ^ 2 +
+                                column_percent_se_used ^ 2)
+    ) |> 
+    arrange(desc(age_cat), n_kids_cat)
+```
+
+```{r}
+print_table <- nsduh_wide |>
+    transmute(
+        n_kids_cat,
+        prop_never,
+        prop_used,
+        prop_diff = sprintf("%0.3f (%0.3f)", round(prop_diff, 3), round(prop_diff_se, 3)),
+        prettyNum(unweighted_count_never, big.mark = ","), 
+        prettyNum(unweighted_count_used, big.mark = ","), 
+        prettyNum(round(weighted_count_never), big.mark = ","), 
+        prettyNum(round(weighted_count_used), big.mark = ",")
+    )
+
+print_table|>
+    kable(
+        row.names = FALSE,
+        col.names = c(
+            "Number of children under 18 y/o in the household",
+            "Respondents who never used illicit substances",
+            "Respondents who ever used illicit substances",
+            "Difference in proportion (SE)",
+            "Respondents who never used illicit substances",
+            "Respondents who ever used illicit substances",
+            "Respondents who never used illicit substances",
+            "Respondents who ever used illicit substances"
+        )
+    ) |>
+    kableExtra::kable_styling(bootstrap_options = c("striped", "condensed"),
+                              full_width = FALSE) |>
+    kableExtra::add_header_above(c(
+        "",
+        "Proportion (SE)" = 2,
+        "",
+        "Raw count, N" = 2,
+        "Weighted count, N" = 2
+    )) |> 
+    kableExtra::collapse_rows(columns = 1, valign = "top") 
+```
+```{r}
+write_csv(print_table,
+          here("outputs", "tables_data", "tableS2_data_nsduh.csv"))
+```

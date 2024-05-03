@@ -1,0 +1,353 @@
+cause_cat,race_cat,metric_cat,year,median,lower95,upper95,pop
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",1999,2.0714933963938975e-4,1.720088381456708e-4,2.459553126186037e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2000,1.7077260408204786e-4,1.4575509818262058e-4,2.0173745438643309e-4,12448116
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2001,1.6313911419169047e-4,1.3772856110552678e-4,1.8864606593380073e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2002,1.8381636559916537e-4,1.5912277530805708e-4,2.084508183154088e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2003,1.9097139262547191e-4,1.6681486843077853e-4,2.1681158544563373e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2004,1.6794559651545082e-4,1.488692402335179e-4,1.8921788575340935e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2005,1.8749296601394683e-4,1.6676398292663207e-4,2.106061554014965e-4,14813372
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2006,2.0560948997261352e-4,1.8552433268908817e-4,2.2825660056607355e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2007,1.8654946387131055e-4,1.6859491131692716e-4,2.055059162258399e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2008,1.8511287544853428e-4,1.6768980722819406e-4,2.0440628863719888e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2009,1.8349497967140582e-4,1.658180023957123e-4,2.0230281652852677e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2010,1.759476224132972e-4,1.5867181056673785e-4,1.9314473806935907e-4,17178149
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2011,1.966883931044383e-4,1.7848532836798882e-4,2.1506818479260226e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2012,2.0439487412377e-4,1.8591884773305756e-4,2.2560789936205692e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2013,2.0958155257566613e-4,1.9110808152324188e-4,2.2953939755190056e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2014,2.2543452543238862e-4,2.0470365493178156e-4,2.4778829016589287e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2015,2.590260980963599e-4,2.354477017524087e-4,2.848658010285582e-4,18054713
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2016,3.3021175126018987e-4,2.9870743542985965e-4,3.5986251889268405e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2017,3.7355312720416256e-4,3.4227275517965396e-4,4.117657916176104e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2018,3.77151341960702e-4,3.458156499652476e-4,4.1247590875368725e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2019,4.297389737641377e-4,3.928051942621385e-4,4.693377962566886e-4,NA
+Drug Poisonings,Hispanic,"Youth impacted by parental
+death per 1,000 population",2020,5.851015252726355e-4,5.362155464869817e-4,6.439504960539632e-4,18631835
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",1999,2465.4087878015007,2047.1805600833536,2927.2619946168866,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2000,2125.7971852354053,1814.37636976865,2511.251233747028,12448116
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2001,2105.5876051378914,1777.6212196207025,2434.798179187786,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2002,2459.2116947450586,2128.845212787958,2788.786996791532,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2003,2643.0337614813297,2308.7087710790797,3000.6606347419565,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2004,2403.4318119189975,2130.4343502720617,2707.8547782106325,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2005,2777.4030529479514,2470.3369152938494,3119.787325452177,14813372
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2006,3154.1922691659324,2846.072017337499,3501.614662764361,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2007,2963.65686008006,2678.4181263779174,3264.8124833523802,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2008,3031.8527192462734,2746.4907387062535,3347.8479578154984,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2009,3085.970675924009,2788.6838857924645,3402.275967341649,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2010,3022.454474011359,2725.6880040151973,3317.869089121422,17178149
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2011,3416.0238247895945,3099.878566584749,3735.2384226133695,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2012,3581.382457011803,3257.6477397169065,3953.0745396740385,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2013,3704.701427989069,3378.1521981224655,4057.4894280509834,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2014,4025.4441003713446,3655.2658404434555,4424.601373175865,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2015,4676.641860639625,4250.940681649336,5143.170281085723,18054713
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2016,6028.12151722692,5453.000118858861,6569.405798254512,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2017,6879.993166439377,6303.880345799865,7583.782937933579,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2018,6986.764062048149,6406.2674222773085,7641.154982397479,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2019,7988.101495416866,7301.566651515916,8724.174861997539,NA
+Drug Poisonings,Hispanic,"Number on youth impacted
+by parental death, thousands",2020,10901.515077128075,9990.679586580272,11997.979390645594,18631835
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",1999,2.6743160457060045e-4,2.247602435514695e-4,3.1345598421083086e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2000,2.595175007991668e-4,2.2104002689467828e-4,3.04704291770988e-4,11209172
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2001,2.6247312232774433e-4,2.2693949817385872e-4,3.054164591208164e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2002,2.786999135689916e-4,2.4310737234345682e-4,3.2035633729850244e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2003,2.7929954781491517e-4,2.455528355576997e-4,3.155266216012115e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2004,2.692392434018309e-4,2.410870096099249e-4,2.9996635628148634e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2005,2.997397556001591e-4,2.6938031177471954e-4,3.318503383946819e-4,11346440
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2006,3.482306791607881e-4,3.1757627652724275e-4,3.8361559838538396e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2007,2.905044822916203e-4,2.6412271455243387e-4,3.180190204965183e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2008,2.4677017100421805e-4,2.2552611537135503e-4,2.7120146653109576e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2009,2.431206429160393e-4,2.2064337660619715e-4,2.647568387435267e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2010,2.2725085243474608e-4,2.0732088178041785e-4,2.4832608255002665e-4,11299028
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2011,2.499660826049688e-4,2.2855019819707222e-4,2.738787951421045e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2012,2.51119564013913e-4,2.2887044665991508e-4,2.7286499092076254e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2013,2.736138863052018e-4,2.5142109468979934e-4,2.970656852234965e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2014,3.028163269886974e-4,2.780839900432236e-4,3.302288688602412e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2015,3.615757607251524e-4,3.3368525919484914e-4,3.934363311335454e-4,11156747
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2016,5.114417609400346e-4,4.7184891023339113e-4,5.535375085947258e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2017,6.271818033311005e-4,5.804976173504311e-4,6.767233954104223e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2018,6.310493279471086e-4,5.828595617884513e-4,6.82923629173493e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2019,7.40754373891872e-4,6.852510308672539e-4,7.976570324772613e-4,NA
+Drug Poisonings,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2020,0.001116210616624258,0.0010360540985976802,0.0012016677623735983,11123707
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",1999,2976.8969883601326,2501.9035921568648,3489.214286691921,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2000,2908.976303467998,2477.6756803470753,3415.482815599189,11209172
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2001,2955.1785849331377,2555.106363391519,3438.6765832462524,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2002,3149.264710043348,2747.07465340886,3619.975674815447,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2003,3160.4246466824898,2778.562441760902,3570.353476740129,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2004,3050.6394788963516,2731.658060216119,3398.7957968194464,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2005,3400.9791525318687,3056.5075447331487,3765.3199535749545,11346440
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2006,3954.994419039376,3606.8401678779537,4356.875029870963,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2007,3304.125064959834,3004.0654605180302,3617.0685163532544,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2008,2801.310057452612,2560.14968355797,3078.6516567128797,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2009,2755.2806543926863,2500.5463122803703,3000.4831640730977,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2010,2567.7137446840643,2342.5244482216312,2805.8433598630622,11299028
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2011,2806.0497527524153,2565.6409880052342,3074.4872159602164,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2012,2803.772281856536,2555.3589064277044,3046.5619086145057,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2013,3047.177656726045,2800.0214189194635,3308.3551818833316,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2014,3374.9521613503543,3099.305022837616,3680.4707519675862,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2015,4034.009283743062,3722.842014466355,4389.469607065189,11156747
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2016,5708.532396671055,5266.6109733598,6178.390272193795,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2017,7001.628103848387,6480.462937972263,7554.692305599235,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2018,7032.765205118245,6495.711609346418,7610.881311970857,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2019,8244.721368905724,7626.959780976752,8878.057575510407,NA
+Drug Poisonings,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2020,12416.399849617575,11524.762228949705,13367.000099989531,11123707
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",1999,2.3383741288907078e-4,2.119754457207024e-4,2.552366621612706e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2000,2.487879179229324e-4,2.2942424349508273e-4,2.715132139803039e-4,45045692
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2001,2.8335601541296107e-4,2.5917656807462327e-4,3.052593394331032e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2002,3.4491012150711375e-4,3.2000198047262837e-4,3.700785887495339e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2003,3.749127522657547e-4,3.509454404860557e-4,3.991613717961723e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2004,3.9964047336649156e-4,3.762621931394899e-4,4.2458732242387214e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2005,4.221999447663327e-4,3.968153803001695e-4,4.472056107740263e-4,43260351
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2006,4.7932973263414835e-4,4.5334284105665593e-4,5.039912978375749e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2007,5.071873633482604e-4,4.831535893730948e-4,5.341657902620034e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2008,5.178368655676113e-4,4.918963325831277e-4,5.464457759054326e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2009,5.205939228704604e-4,4.952168718843742e-4,5.473661217128612e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2010,5.437849644706061e-4,5.173574642363954e-4,5.709535307454827e-4,41103007
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2011,5.872631205125489e-4,5.562155936618074e-4,6.183594236852801e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2012,5.857974004815913e-4,5.576589198944603e-4,6.167721101881545e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2013,6.095338721368027e-4,5.772811343947248e-4,6.407043873036811e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2014,6.588593003094556e-4,6.248036020946202e-4,6.935110903848185e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2015,7.421129431989248e-4,7.033938561134851e-4,7.794734950314908e-4,39454934
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2016,8.981757149720271e-4,8.550236377080439e-4,9.452684892140101e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2017,9.89528377868365e-4,9.419738001794353e-4,0.0010401922806574759,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2018,9.347374244537132e-4,8.87269497345819e-4,9.828384558838166e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2019,9.469058118999896e-4,8.998822939510681e-4,9.943683491676458e-4,NA
+Drug Poisonings,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2020,0.001212343688918982,0.0011497914879695953,0.0012823311921808605,37778412
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",1999,10601.031974383732,9609.918490397557,11571.168117097623,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2000,11206.823924077693,10334.5738098125,12230.500610886864,45045692
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2001,12678.868901310601,11596.950656299501,13658.941173111776,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2002,15319.158903029951,14212.865562553157,16437.014613809337,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2003,16502.8364212473,15447.847964954304,17570.20742725641,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2004,17442.376798601468,16422.027760408066,18531.186291622034,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2005,18264.517802772167,17166.37263398382,19346.271691253758,43260351
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2006,20547.41710357392,19433.437594033163,21604.583876594774,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2007,21542.763985097554,20521.93034878581,22688.671643078564,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2008,21746.534831179153,20657.163367700814,22947.964676197167,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2009,21614.073152097677,20560.46608466699,22725.60411471735,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2010,22351.197201130075,21264.94747401081,23467.906970906293,41103007
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2011,23905.947704795086,22642.083982841537,25171.79698341309,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2012,23625.629178158724,22490.784080789155,24874.86142949128,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2013,24375.1553164586,23085.373849371066,25621.658887823978,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2014,26162.17155386985,24809.878251392573,27538.13464063895,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2015,29280.017194459328,27752.358168963052,30754.075301216795,39454934
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2016,35207.04645488093,33515.5542852168,37053.007621264005,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2017,38467.347700343795,36618.69078901425,40436.877840190275,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2018,35977.89764818521,34150.86453879898,37829.29884416898,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2019,36086.867403969605,34294.78688681027,37895.67908038878,NA
+Drug Poisonings,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2020,45800.41936558114,43437.29654660842,48444.436098659724,37778412
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",1999,2.275030780616305e-4,2.0937043701919623e-4,2.448221374842796e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2000,2.31438390901062e-4,2.156184384537213e-4,2.4838964838391764e-4,72376189
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2001,2.5371437423971077e-4,2.3628589455479133e-4,2.7198539484991896e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2002,2.9940652278348523e-4,2.816929208868058e-4,3.193212323364947e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2003,3.204460497823747e-4,3.0239523760176856e-4,3.401023214477411e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2004,3.3068657019774683e-4,3.135559573568786e-4,3.5011192130163796e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2005,3.514899622064638e-4,3.346454573308899e-4,3.6997480102526073e-4,73523669
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2006,3.9690411262499614e-4,3.769726584751665e-4,4.189316563185663e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2007,4.014757860024143e-4,3.8231118026655074e-4,4.235578635161691e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2008,4.0074782118082464e-4,3.8087494959480883e-4,4.2000707764819345e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2009,4.000326698424539e-4,3.820270564825645e-4,4.199693846946961e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2010,4.08908518453599e-4,3.9081978079568704e-4,4.301541074235776e-4,74122633
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2011,4.421672265306209e-4,4.222236441609489e-4,4.626595610936507e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2012,4.4005110795741764e-4,4.208273437383392e-4,4.60456110245383e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2013,4.5629658924606353e-4,4.3446015803909056e-4,4.7884948580745323e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2014,4.934073705372133e-4,4.709248774810576e-4,5.176044832726157e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2015,5.560712149858538e-4,5.302923549962591e-4,5.848655146704601e-4,73653720
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2016,6.831123124182992e-4,6.494105633682856e-4,7.163132551599588e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2017,7.602974214331315e-4,7.245331061408067e-4,8.034208171105562e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2018,7.260925997938927e-4,6.938152648053697e-4,7.602543104389264e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2019,7.573903094750256e-4,7.237525652609323e-4,7.980234494686296e-4,NA
+Drug Poisonings,Total,"Youth impacted by parental
+death per 1,000 population",2020,9.996570876755762e-4,9.53036689139497e-4,0.0010505018519661679,72822113
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",1999,16367.947601872893,15063.375720934506,17613.98549972872,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2000,16750.628721711146,15605.640853411402,17977.496137077967,72376189
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2001,18437.721690389513,17171.173593222786,19765.498226582564,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2002,21837.65097451719,20545.68361146491,23290.15933149775,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2003,23424.84913719732,22105.32108427938,24861.73749538953,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2004,24238.576590413344,22982.941470015783,25662.410827908312,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2005,25842.831638090553,24604.361837149972,27201.90480892213,73523669
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2006,29274.740024418254,27804.641529631008,30899.441292291107,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2007,29716.998801806032,28298.44608817783,31351.50104053804,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2008,29697.25779097218,28224.58655149337,31124.457326302476,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2009,29656.088751556337,28321.257603796872,31134.080499843847,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2010,30309.376043909848,28968.591181059157,31884.15503800042,74122633
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2011,32683.589987356412,31209.42403850518,34198.31794672365,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2012,32437.47587953632,31020.435047473256,33941.58928265905,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2013,33579.657220903566,31972.676384010712,35239.36398557887,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2014,36311.435689344544,34656.87669916189,38092.17905765448,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2015,40956.71356862788,39058.00463303506,43077.52085519396,73653720
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2016,50344.89446482377,47861.09938697435,52791.78047181757,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2017,55982.47519489794,53349.065114483536,59157.75155487902,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2018,53284.66920826732,50915.98080918972,55791.643458970146,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2019,55356.654177369564,52898.11602277257,58326.476540591575,NA
+Drug Poisonings,Total,"Number on youth impacted
+by parental death, thousands",2020,72797.14139996172,69402.14546966233,76499.76457058956,72822113

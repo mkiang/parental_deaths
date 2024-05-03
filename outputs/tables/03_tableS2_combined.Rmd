@@ -1,0 +1,617 @@
+---
+title: "Parental Deaths From Drugs and Firearms Combined"
+author: "Mathew Kiang"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    code_folding: 'hide'
+    toc: true
+    toc_float: true
+---
+
+```{r options, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+```
+
+```{r packages, results='hide'}
+library(tidyverse)
+library(here)
+library(knitr)
+library(kableExtra)
+```
+```{r helperfunctions}
+categorize_race <- function(df) {
+    df |>
+        mutate(race_cat = factor(
+            race,
+            levels = c("hispanic", "black", "white", "total"),
+            labels = c(
+                "Hispanic",
+                "Non-Hispanic Black",
+                "Non-Hispanic White",
+                "Total"
+            ),
+            ordered = TRUE
+        )) |>
+        arrange(race_cat)
+}
+```
+```{r data}
+# Incidence of bereavement of at least on parent by cause and number of orphans
+df.inc.parental.loss.by.cause <- readRDS(
+        here(
+                "outputs",
+                "data_public",
+                "df_incidence_parental_loss_by_cause.rds")
+)
+
+# Children experiencing bereavement of at least on parent by cause 
+df.n.loss.by.cause <- readRDS(
+        here(
+                "outputs",
+                "data_public",
+                "df_n_loss_by_cause.rds")
+)
+
+# Life table
+lt.US <- readRDS(
+        here("outputs",
+             "data_public",
+             "lt_US.rds")
+)
+
+```
+
+```{r dataprep}
+# Population < 18 yo
+popu18 <-
+    lt.US |>
+    filter(year %in% c(1999, 2020),
+           race_eth %in% c("black", "white", "hispanic", "total"),
+           age < 18) |>
+    summarise(.by = c(race_eth, year),
+              pop = prettyNum(round(sum(pop) / 1000, 1), big.mark = ",")) |>
+    pivot_wider(names_from = year,
+                values_from = pop,
+                names_prefix = "pop_") |>
+    mutate(race = factor(race_eth,
+                             levels = c("white", "black", "hispanic", "total"))) |>
+    select(-race_eth) |> 
+    categorize_race()
+
+# Person-time < 18 yo
+person_time_u18 <-
+    lt.US |>
+    filter(year %in% c(1999, 2020),
+           race_eth %in% c("black", "white", "hispanic", "total"),
+           age < 18) |>
+    summarise(.by = c(race_eth),
+              person_time_1999_2020 = sum(pop)) |>
+    mutate(race = factor(race_eth,
+                         levels = c("white", "black", "hispanic", "total"))) |>
+    select(-race_eth) |>
+    categorize_race()
+
+# Number of kids ----
+## Number of kids, Guns and drugs separately
+n_loss <- df.n.loss.by.cause |> 
+        filter(
+                # cause != "other",
+                year %in% c(1999, 2020)
+        ) |> 
+        pivot_wider(
+                names_from = cause, 
+                values_from = median:upper95
+        ) |> 
+        mutate(
+                drugs = sprintf(
+                    "%s (%s to %s)",
+                    prettyNum(round(median_drugs  / 1000, 1), big.mark = ","),
+                    prettyNum(round(lower95_drugs / 1000, 1), big.mark = ","),
+                    prettyNum(round(upper95_drugs / 1000, 1), big.mark = ",")
+                    ),
+                firearms = sprintf(
+                    "%s (%s to %s)",
+                    prettyNum(round(median_firearms  / 1000, 1), big.mark = ","),
+                    prettyNum(round(lower95_firearms / 1000, 1), big.mark = ","),
+                    prettyNum(round(upper95_firearms / 1000, 1), big.mark = ",")
+                    )
+        ) |> 
+        dplyr::select(
+                race, year, drugs, firearms
+        ) |> 
+        pivot_wider(
+                names_from = year,
+                values_from = drugs:firearms,
+                names_prefix = "n_"
+        ) |> 
+        categorize_race()
+
+## Number of kids, drugs and firearms combined
+n_loss_both <- df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause != "other",
+           year %in% c(1999, 2020)) |>
+    summarise(.by = c(race, year),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    mutate(both = sprintf(
+        "%s (%s to %s)",
+        prettyNum(round(median  / 1000, 1), big.mark = ","),
+        prettyNum(round(lower95 / 1000, 1), big.mark = ","),
+        prettyNum(round(upper95 / 1000, 1), big.mark = ",")
+    )) |>
+    dplyr::select(race, year, both) |>
+    pivot_wider(names_from = year,
+                values_from = both, 
+                names_prefix = "both_n_") |>
+    categorize_race()
+
+## Number of kids, other
+n_loss_other <- df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause == "other",
+           year %in% c(1999, 2020)) |>
+    summarise(.by = c(race, year),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    mutate(other = sprintf(
+        "%s (%s to %s)",
+        prettyNum(round(median  / 1000, 1), big.mark = ","),
+        prettyNum(round(lower95 / 1000, 1), big.mark = ","),
+        prettyNum(round(upper95 / 1000, 1), big.mark = ",")
+    )) |>
+    dplyr::select(race, year, other) |>
+    pivot_wider(names_from = year,
+                values_from = other, 
+                names_prefix = "other_n_") |>
+    categorize_race()
+
+# Per thousand kids ----
+## per 1000 kids, guns and drugs separately
+per1000_loss <-
+    df.inc.parental.loss.by.cause |>
+    filter(cause != "other",
+           year %in% c(1999, 2020)) |>
+    pivot_wider(names_from = cause,
+                values_from = median:upper95) |>
+    mutate(
+        drugs = sprintf(
+            "%0.2f (%0.2f to %0.2f)",
+            round(median_drugs  * 1000, 2),
+            round(lower95_drugs * 1000, 2),
+            round(upper95_drugs * 1000, 2)
+        ),
+        firearms = sprintf(
+            "%0.2f (%0.2f to %0.2f)",
+            round(median_firearms  * 1000, 2),
+            round(lower95_firearms * 1000, 2),
+            round(upper95_firearms * 1000, 2)
+        )
+    ) |>
+    dplyr::select(race, year, drugs, firearms) |>
+    pivot_wider(names_from = year,
+                values_from = drugs:firearms,
+                names_prefix = "per1000_loss_") |>
+    categorize_race()
+
+## per 1000 kids, drugs and firearms combined
+per1000_loss_both <-
+    df.inc.parental.loss.by.cause |>
+    ungroup() |>
+    filter(cause != "other",
+           year %in% c(1999, 2020)) |>
+    summarise(.by = c(race, year),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    mutate(both = sprintf(
+        "%0.2f (%0.2f to %0.2f)",
+        round(median  * 1000,  2),
+        round(lower95 * 1000, 2),
+        round(upper95 * 1000, 2)
+    )) |>
+    dplyr::select(race, year, both) |>
+    pivot_wider(names_from = year,
+                values_from = both, 
+                names_prefix = "both_per1000_loss_") |>
+    categorize_race()
+
+## per thousand kids, other
+per1000_loss_other <-
+    df.inc.parental.loss.by.cause |>
+    ungroup() |>
+    filter(cause == "other",
+           year %in% c(1999, 2020)) |>
+    summarise(.by = c(race, year),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    mutate(other = sprintf(
+        "%0.2f (%0.2f to %0.2f)",
+        round(median  * 1000,  2),
+        round(lower95 * 1000, 2),
+        round(upper95 * 1000, 2)
+    )) |>
+    dplyr::select(race, year, other) |>
+    pivot_wider(names_from = year,
+                values_from = other, 
+                names_prefix = "other_per1000_loss_") |>
+    categorize_race()
+
+# Cumulative number of kids ----
+## cume kids 1999-2020, drugs and firearms separately
+cum_n_loss <-
+    df.n.loss.by.cause |>
+    filter(cause != "other") |>
+    ungroup() |>
+    summarise(.by = c(race, cause),
+              across(median:upper95, ~ sum(.x))) |>
+    pivot_wider(names_from = cause,
+                values_from = median:upper95) |>
+    mutate(
+        drugs_cume_n_loss = sprintf(
+            "%s (%s to %s)",
+            prettyNum(round(median_drugs  / 1000, 1), big.mark = ","),
+            prettyNum(round(lower95_drugs / 1000, 1), big.mark = ","),
+            prettyNum(round(upper95_drugs / 1000, 1), big.mark = ",")
+        ),
+        firearms_cume_n_loss = sprintf(
+            "%s (%s to %s)",
+            prettyNum(round(median_firearms  / 1000, 1), big.mark = ","),
+            prettyNum(round(lower95_firearms / 1000, 1), big.mark = ","),
+            prettyNum(round(upper95_firearms / 1000, 1), big.mark = ",")
+        )
+    ) |>
+    dplyr::select(race, drugs_cume_n_loss, firearms_cume_n_loss) |>
+     categorize_race()
+
+## cume kids 1999-2020, drugs and firearms combined
+cum_n_loss_both <-
+    df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause != "other") |>
+    summarise(.by = c(race),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    mutate(both = sprintf(
+        "%s (%s to %s)",
+        prettyNum(round(median  / 1000, 1), big.mark = ","),
+        prettyNum(round(lower95 / 1000, 1), big.mark = ","),
+        prettyNum(round(upper95 / 1000, 1), big.mark = ",")
+    )) |>
+    dplyr::select(race, both_cume_n_loss = both) |> 
+    categorize_race()
+
+## cume kids 1999-2020, other
+cum_n_loss_other <-
+    df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause == "other") |>
+    summarise(.by = c(race),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    mutate(other = sprintf(
+        "%s (%s to %s)",
+        prettyNum(round(median  / 1000, 1), big.mark = ","),
+        prettyNum(round(lower95 / 1000, 1), big.mark = ","),
+        prettyNum(round(upper95 / 1000, 1), big.mark = ",")
+    )) |>
+    dplyr::select(race, other_cume_n_loss = other) |> 
+    categorize_race()
+
+# Cumulative number of kids per 1000 person-years ----
+## cume kids per 1000 person years 1999-2020, drugs and firearms separately
+cum_n_loss_per1000 <-
+    df.n.loss.by.cause |>
+    filter(cause != "other") |>
+    ungroup() |>
+    summarise(.by = c(race, cause),
+              across(median:upper95, ~ sum(.x))) |>
+    pivot_wider(names_from = cause,
+                values_from = median:upper95) |>
+    left_join(person_time_u18) |>
+    mutate(
+        drugs_cume_n_loss_per1000 = sprintf(
+            "%0.2f (%0.2f to %0.2f)",
+            round(median_drugs  / person_time_1999_2020 * 1000, 2),
+            round(lower95_drugs / person_time_1999_2020 * 1000, 2),
+            round(upper95_drugs / person_time_1999_2020 * 1000, 2)
+        ),
+        firearms_cume_n_loss_per1000 = sprintf(
+            "%0.2f (%0.2f to %0.2f)",
+            round(median_firearms  / person_time_1999_2020 * 1000, 2),
+            round(lower95_firearms / person_time_1999_2020 * 1000, 2),
+            round(upper95_firearms / person_time_1999_2020 * 1000, 2)
+        )
+    ) |>
+    dplyr::select(race,
+                  drugs_cume_n_loss_per1000,
+                  firearms_cume_n_loss_per1000) |>
+    categorize_race()
+
+## cume kids 1999-2020, drugs and firearms combined
+cum_n_loss_both_per1000 <-
+    df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause != "other") |>
+    summarise(.by = c(race),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    left_join(person_time_u18) |>
+    mutate(both = sprintf(
+        "%0.2f (%0.2f to %0.2f)",
+        round(median  / person_time_1999_2020 * 1000, 2),
+        round(lower95 / person_time_1999_2020 * 1000, 2),
+        round(upper95 / person_time_1999_2020 * 1000, 2)
+    )) |>
+    dplyr::select(race, both_cume_n_loss_per1000 = both) |>
+    categorize_race()
+
+## cume kids per 1000 person-years 1999-2020, other
+cum_n_loss_other_per1000 <-
+    df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause == "other") |>
+    summarise(.by = c(race),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    left_join(person_time_u18) |>
+    mutate(other = sprintf(
+        "%0.2f (%0.2f to %0.2f)",
+        round(median  / person_time_1999_2020 * 1000, 2),
+        round(lower95 / person_time_1999_2020 * 1000, 2),
+        round(upper95 / person_time_1999_2020 * 1000, 2)
+    )) |>
+    dplyr::select(race, other_cume_n_loss_per1000 = other) |>
+    categorize_race()
+
+# Percent increase ----
+## % increase 1999-2020, for drugs and firearms separately
+perc_inc_n_loss <-
+    df.n.loss.by.cause |>
+    filter(cause != "other",
+           year %in% c(1999, 2020)) |>
+    pivot_wider(names_from = year,
+                values_from = median:upper95) |>
+    mutate(
+        m_perc_inc = ((median_2020 - median_1999) / median_1999) * 100,
+        u95_perc_inc = ((lower95_2020 - lower95_1999) / lower95_1999) * 100,
+        l95_perc_inc = ((upper95_2020 - upper95_1999) / upper95_1999) * 100
+    ) |>
+    dplyr::select(cause, race, contains("perc_in")) |>
+    pivot_wider(names_from = cause,
+                values_from = m_perc_inc:l95_perc_inc) |>
+    mutate(
+        drugs_perc_inc = sprintf(
+            "%0.1f (%0.1f to %0.1f)",
+            round(m_perc_inc_drugs  , 1),
+            round(l95_perc_inc_drugs, 1),
+            round(u95_perc_inc_drugs, 1)
+        ),
+        firearms_perc_inc = sprintf(
+            "%0.1f (%0.1f to %0.1f)",
+            round(m_perc_inc_firearms,   1),
+            round(l95_perc_inc_firearms, 1),
+            round(u95_perc_inc_firearms, 1)
+        )
+    ) |>
+    dplyr::select(race, drugs_perc_inc, firearms_perc_inc) |>
+    categorize_race()
+
+## % increase 1999-2020 drugs and firearms combined
+perc_inc_n_loss_both <-
+    df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause != "other",
+           year %in% c(1999, 2020)) |>
+    summarise(.by = c(race, year),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    pivot_wider(names_from = year,
+                values_from = median:upper95) |>
+    mutate(
+        m_perc_inc = ((median_2020 - median_1999) / median_1999) * 100,
+        u95_perc_inc = ((lower95_2020 - lower95_1999) / lower95_1999) * 100,
+        l95_perc_inc = ((upper95_2020 - upper95_1999) / upper95_1999) * 100
+    ) |>
+    dplyr::select(race, contains("perc_in")) |>
+    mutate(both_perc_inc = sprintf(
+        "%0.1f (%0.1f to %0.1f)",
+        round(m_perc_inc , 1),
+        round(l95_perc_inc, 1),
+        round(u95_perc_inc, 1)
+    )) |>
+    dplyr::select(race, both_perc_inc) |>
+    categorize_race()
+
+## % increase 1999-2020 other
+perc_inc_n_loss_other <-
+    df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause == "other",
+           year %in% c(1999, 2020)) |>
+    summarise(.by = c(race, year),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    pivot_wider(names_from = year,
+                values_from = median:upper95) |>
+    mutate(
+        m_perc_inc = ((median_2020 - median_1999) / median_1999) * 100,
+        u95_perc_inc = ((lower95_2020 - lower95_1999) / lower95_1999) * 100,
+        l95_perc_inc = ((upper95_2020 - upper95_1999) / upper95_1999) * 100
+    ) |>
+    dplyr::select(race, contains("perc_in")) |>
+    mutate(other_perc_inc = sprintf(
+    "%0.1f (%0.1f to %0.1f)",
+        round(m_perc_inc , 1),
+        round(l95_perc_inc, 1),
+        round(u95_perc_inc, 1)
+    )) |>
+    dplyr::select(race, other_perc_inc) |>
+    categorize_race()
+
+# Absolute increase ----
+## N increase 1999-2020, for drugs and firearms separately
+abs_inc_n_loss <-
+    df.n.loss.by.cause |>
+    filter(cause != "other",
+           year %in% c(1999, 2020)) |>
+    pivot_wider(names_from = year,
+                values_from = median:upper95) |>
+    mutate(
+        m_abs_inc = median_2020 - median_1999,
+        l95_abs_inc = lower95_2020 - lower95_1999,
+        u95_abs_inc = upper95_2020 - upper95_1999
+    ) |>
+    dplyr::select(cause, race, contains("abs_in")) |>
+    pivot_wider(names_from = cause,
+                values_from = m_abs_inc:u95_abs_inc) |>
+    mutate(
+        drugs_abs_inc = sprintf(
+            "%0.1f (%0.1f to %0.1f)",
+            round(m_abs_inc_drugs / 1000  , 1),
+            round(l95_abs_inc_drugs / 1000, 1),
+            round(u95_abs_inc_drugs / 1000, 1)
+        ),
+        firearms_abs_inc = sprintf(
+            "%0.1f (%0.1f to %0.1f)",
+            round(m_abs_inc_firearms / 1000,   1),
+            round(l95_abs_inc_firearms / 1000, 1),
+            round(u95_abs_inc_firearms / 1000, 1)
+        )
+    ) |>
+    dplyr::select(race, drugs_abs_inc, firearms_abs_inc) |>
+    categorize_race()
+
+## abs increase 1999-2020 drugs and firearms combined
+abs_inc_n_loss_both <-
+    df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause != "other",
+           year %in% c(1999, 2020)) |>
+    summarise(.by = c(race, year),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    pivot_wider(names_from = year,
+                values_from = median:upper95) |>
+    mutate(
+        m_abs_inc = median_2020 - median_1999,
+        l95_abs_inc = lower95_2020 - lower95_1999,
+        u95_abs_inc = upper95_2020 - upper95_1999
+    ) |>
+    dplyr::select(race, contains("abs_in")) |>
+    mutate(both_abs_inc = sprintf(
+        "%0.1f (%0.1f to %0.1f)",
+        round(m_abs_inc / 1000  , 1),
+        round(l95_abs_inc / 1000, 1),
+        round(u95_abs_inc / 1000, 1)
+    )) |>
+    dplyr::select(race, both_abs_inc) |>
+    categorize_race()
+
+## % increase 1999-2020 other
+abs_inc_n_loss_other <-
+    df.n.loss.by.cause |>
+    ungroup() |>
+    filter(cause == "other",
+           year %in% c(1999, 2020)) |>
+    summarise(.by = c(race, year),
+              across(median:upper95, ~ sum(.x))) |>
+    ungroup() |>
+    pivot_wider(names_from = year,
+                values_from = median:upper95) |>
+    mutate(
+        m_abs_inc = median_2020 - median_1999,
+        l95_abs_inc = lower95_2020 - lower95_1999,
+        u95_abs_inc = upper95_2020 - upper95_1999
+    ) |>
+    dplyr::select(race, contains("abs_in")) |>
+    mutate(other_abs_inc = sprintf(
+        "%0.1f (%0.1f to %0.1f)",
+        round(m_abs_inc / 1000  , 1),
+        round(l95_abs_inc / 1000, 1),
+        round(u95_abs_inc / 1000, 1)
+    )) |>
+    dplyr::select(race, other_abs_inc) |>
+    categorize_race()
+
+## Combine tables
+wide_table <- popu18 |>
+    left_join(n_loss) |>
+    left_join(n_loss_both) |>
+    left_join(n_loss_other) |>
+    left_join(cum_n_loss) |>
+    left_join(cum_n_loss_both) |>
+    left_join(cum_n_loss_other) |>
+    left_join(cum_n_loss_per1000) |>
+    left_join(cum_n_loss_both_per1000) |>
+    left_join(cum_n_loss_other_per1000) |>
+    left_join(per1000_loss) |>
+    left_join(per1000_loss_both) |>
+    left_join(per1000_loss_other) |>
+    left_join(perc_inc_n_loss) |>
+    left_join(perc_inc_n_loss_both) |>
+    left_join(perc_inc_n_loss_other) |>
+    left_join(abs_inc_n_loss) |>
+    left_join(abs_inc_n_loss_both) |>
+    left_join(abs_inc_n_loss_other) |>
+    left_join(person_time_u18)
+```
+
+## Table S2
+```{r}
+print_table <- wide_table |>
+    transmute(
+        cause_of_death = "both",
+        race_cat,
+        n_1999 = both_n_1999,
+        pop_1999,
+        per1000_loss_1999 = both_per1000_loss_1999,
+        n_2020 = both_n_2020,
+        pop_2020,
+        per1000_loss_2020 = both_per1000_loss_2020,
+        abs_inc = both_abs_inc,
+        perc_inc = both_perc_inc,
+        cume_n_loss = both_cume_n_loss,
+        cume_n_per1000 = both_cume_n_loss_per1000
+    )
+
+print_table |>
+    select(-cause_of_death) |>
+    kable(
+        row.names = FALSE,
+        col.names = c(
+            " ",
+            "Youth impacted (95% CI), thousands",
+            "Population < 18y, thousands",
+            "Youth impacted per 1000 population (95% CI)",
+            "Youth impacted (95% CI), thousands",
+            "Population < 18y, thousands",
+            "Youth impacted per 1000 population (95% CI)", 
+            "Absolute increase (95% CI), thousands",
+            "Percent increase (95% CI)",
+            "Cumulative youth impacted (95% CI), thousands",
+            "Cumulative youth impacted per 1,000 person-years (95% CI)"
+        ),
+        format = "html",
+        booktabs = TRUE
+    ) |>
+    kableExtra::kable_styling(bootstrap = c("striped", "scale_down")) |>
+    kableExtra::add_header_above(
+        c(
+            "Race and ethnicity" = 1,
+            "1999" = 3,
+            "2020" = 3,
+            "Change in youth impacted 1999 to 2020" = 2,
+            "Cumulative youth impacted 1999 to 2020" = 2
+        )
+    ) |>
+    kableExtra::pack_rows(
+        "Estimated youth impacted by parental deaths due to fatal drug poisonings and firearms combined", 1, 4)
+```
+```{r}
+write_csv(print_table,
+          here("outputs", "tables_data", "tableS2_data_both.csv"))
+```

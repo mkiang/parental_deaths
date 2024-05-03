@@ -1,0 +1,353 @@
+cause_cat,race_cat,metric_cat,year,median,lower95,upper95
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",1999,2.1044923716689867e-4,1.8317660929042522e-4,2.3940086232095148e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2000,2.020839397754992e-4,1.77965997263968e-4,2.2702983943172217e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2001,2.144150365510633e-4,1.8902732550804546e-4,2.4059276475428548e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2002,2.0388493569034605e-4,1.835642021503797e-4,2.277047385801645e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2003,2.1022873291492994e-4,1.8828654303827685e-4,2.3309009293138173e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2004,1.9683488502453272e-4,1.7585989712284587e-4,2.1911821327019463e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2005,2.120463132550543e-4,1.914761157996492e-4,2.3295876938123904e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2006,1.962807960623758e-4,1.7719683138846533e-4,2.179368021779704e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2007,1.926940435281188e-4,1.7398475689030802e-4,2.1293704106855327e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2008,1.741093400507432e-4,1.5706645190161073e-4,1.9125947691180924e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2009,1.7175254772050508e-4,1.5537050879060044e-4,1.9053927758558019e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2010,1.5469802013562406e-4,1.3817910845460022e-4,1.7307680569071115e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2011,1.4968802228604305e-4,1.3540295820806957e-4,1.6437880245571965e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2012,1.5284172124152562e-4,1.381010084063494e-4,1.6792647395537095e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2013,1.4911129484707075e-4,1.3527189746693756e-4,1.650124653410384e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2014,1.5112935830630114e-4,1.354587936062912e-4,1.6762183134581832e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2015,1.5980242000762646e-4,1.4401158705155682e-4,1.76298434216815e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2016,1.7987816419628988e-4,1.614111829376347e-4,1.9734284577933303e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2017,1.750362340450784e-4,1.5842678660367703e-4,1.9386710820845366e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2018,1.7792311514863712e-4,1.6217940524020923e-4,1.957811786361868e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2019,1.8136183730360633e-4,1.6437475892075448e-4,1.9984742866525072e-4
+Firearms,Hispanic,"Youth impacted by parental
+death per 1,000 population",2020,2.1370105178586396e-4,1.9248503930106297e-4,2.35829372065785e-4
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",1999,2504.6828515147986,2180.0949163075343,2849.2535423998984
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2000,2515.5643240624286,2215.3413779975567,2826.0937767074515
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2001,2767.390552253609,2439.71898213469,3105.258636854136
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2002,2727.7017288297416,2455.838092507741,3046.378129824962
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2003,2909.554311191053,2605.8755881764273,3225.9542993053046
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2004,2816.8599485718423,2516.691595108092,3135.7516676299833
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2005,3141.12091947565,2836.406932455281,3450.9049115065036
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2006,3011.083630469312,2718.322368100042,3343.301793550778
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2007,3061.274002870513,2764.0450291673114,3382.8685938401136
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2008,2851.6324150870923,2572.497175825341,3132.5242166523763
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2009,2888.489520148499,2612.980665137524,3204.4398396828383
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2010,2657.42563989475,2373.6613137202826,2973.139156599084
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2011,2599.7357665291765,2351.6371448525406,2854.880741137388
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2012,2678.074298587463,2419.7892971750457,2942.3875254691357
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2013,2635.789362948832,2391.1550685341217,2916.868915570389
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2014,2698.622948814753,2418.803422057919,2993.1187815631806
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2015,2885.1868299431535,2600.0878728903745,3183.017632133975
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2016,3283.7336282939787,2946.612957516244,3602.5569967552196
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2017,3223.7665981343807,2917.8586118984085,3570.5881775219186
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2018,3296.0424329013267,3004.388726938969,3626.8647376661525
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2019,3371.201711324483,3055.4414137553395,3714.816763750848
+Firearms,Hispanic,"Number on youth impacted
+by parental death, thousands",2020,3981.6427362006725,3586.3494922259206,4393.933948483315
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",1999,5.636519781344052e-4,5.085524589960061e-4,6.264274498782752e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2000,5.785034185267768e-4,5.211137334027699e-4,6.391492424650452e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2001,5.815461702025626e-4,5.307166710626116e-4,6.425456438226923e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2002,6.310398309463117e-4,5.750787629309418e-4,6.928634553026725e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2003,6.181671935115984e-4,5.636998472105858e-4,6.792930617896375e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2004,5.927757733832362e-4,5.420979364317125e-4,6.48353265447088e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2005,6.369110593760219e-4,5.816481115027943e-4,6.956902919579399e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2006,6.480812917652456e-4,5.945148158650021e-4,7.080704025427736e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2007,6.29577133098691e-4,5.764943592116073e-4,6.880784876688444e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2008,5.944829604355717e-4,5.452905792345059e-4,6.499747041834453e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2009,5.739109035849399e-4,5.261649269619446e-4,6.249267571127037e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2010,5.610574734669638e-4,5.163304682913539e-4,6.126393156299093e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2011,5.669575404897986e-4,5.197544888398908e-4,6.149759725473658e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2012,6.069784289898239e-4,5.592515773532648e-4,6.601301586424662e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2013,5.980503123568237e-4,5.511860967768872e-4,6.513527759751614e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2014,5.62147512025768e-4,5.13509949443311e-4,6.112340130173255e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2015,6.583051569855058e-4,6.055958197516393e-4,7.139924574816382e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2016,7.252870205800566e-4,6.651095266548973e-4,7.89115284421285e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2017,7.306044397498712e-4,6.740037928161802e-4,7.950656334836437e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2018,7.065127661366466e-4,6.540872025094957e-4,7.662738034501099e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2019,7.267967411230813e-4,6.726950949803995e-4,7.913983293476672e-4
+Firearms,Non-Hispanic Black,"Youth impacted by parental
+death per 1,000 population",2020,9.672157632427125e-4,8.961095398910435e-4,0.00105735120189262
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",1999,6274.254229920596,5660.91762429929,6973.035187680878
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2000,6484.544320854628,5841.253469273793,7164.333792460395
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2001,6547.614373202568,5975.326262293838,7234.40598270424
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2002,7130.649754360202,6498.298583596335,7829.246879630806
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2003,6994.894368533845,6378.567041705578,7686.566453816992
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2004,6716.499250138362,6142.289457553798,7346.225025942121
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2005,7226.673120546469,6599.635398279766,7893.608156283248
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2006,7360.517166932017,6752.141380675544,8041.837373698492
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2007,7160.652288004104,6556.902141588659,7826.032011045032
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2008,6748.510524085606,6190.0835811216075,7378.447194445349
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2009,6504.119070377341,5963.015015466397,7082.280565042857
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2010,6339.404102312481,5834.032418477119,6922.228781203183
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2011,6364.507735342224,5834.619399968717,6903.54930449636
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2012,6776.968180751564,6244.093634539585,7370.411972827255
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2013,6660.354757649227,6138.438298862902,7253.972568424658
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2014,6265.253196799733,5723.177250654982,6812.332656688852
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2015,7344.544085282571,6756.479345226642,7965.833208030893
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2016,8095.397697396327,7423.717752859055,8807.826247014982
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2017,8156.200564142614,7524.331657611665,8875.821738189541
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2018,7873.771793437528,7289.512111337618,8539.782080156545
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2019,8089.370557349145,7487.210092602898,8808.397151957197
+Firearms,Non-Hispanic Black,"Number on youth impacted
+by parental death, thousands",2020,10759.024756093304,9968.059961652778,11761.664965951351
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",1999,2.210824263563782e-4,2.0255723089959433e-4,2.408499712113876e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2000,2.2083274966350208e-4,2.043973237459501e-4,2.4031008602054259e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2001,2.2658466973590752e-4,2.0993089429934553e-4,2.453334188905171e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2002,2.2894080063162736e-4,2.132283538660712e-4,2.452631609834971e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2003,2.246777714244863e-4,2.1065579947569248e-4,2.404213070366895e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2004,2.2234559281253397e-4,2.0849223220941184e-4,2.3760616592336526e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2005,2.23876930855349e-4,2.107212550652188e-4,2.3803046529604353e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2006,2.218087361890997e-4,2.0924149440885997e-4,2.3584775188688621e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2007,2.330222763007317e-4,2.19224321615058e-4,2.469895892016849e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2008,2.411752854527549e-4,2.2802557095445431e-4,2.5539693490741756e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2009,2.394941962909347e-4,2.2740772701798916e-4,2.538371459498923e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2010,2.5009534849301795e-4,2.3623773021351767e-4,2.6594459223555633e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2011,2.5179111259138187e-4,2.3759288507073096e-4,2.665846137225175e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2012,2.5629444978386706e-4,2.420951965610707e-4,2.72366681260594e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2013,2.5954934692168363e-4,2.456585215988849e-4,2.750677174675586e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2014,2.548231045390592e-4,2.406890445540738e-4,2.684093485657263e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2015,2.7212499558493253e-4,2.572001040092503e-4,2.8731754956166087e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2016,2.834400481271926e-4,2.671073733774343e-4,3.000516519068852e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2017,2.8799853450345303e-4,2.717554005393641e-4,3.035795049012885e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2018,2.850778676252719e-4,2.689483617837662e-4,3.021026366145235e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2019,2.802850140577462e-4,2.6420776570103277e-4,2.971550107654264e-4
+Firearms,Non-Hispanic White,"Youth impacted by parental
+death per 1,000 population",2020,2.9496751864888093e-4,2.7796877262180054e-4,3.130115145947798e-4
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",1999,10022.783958399854,9182.943203480809,10918.946691616673
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2000,9947.564024855219,9207.218891084352,10824.934119374868
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2001,10138.614203906975,9393.434910062424,10977.533865620919
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2002,10168.389634197685,9470.522410976782,10893.346126660756
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2003,9889.82233039761,9272.605903440133,10582.818210986128
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2004,9704.311419399415,9099.679126951487,10370.36174237965
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2005,9684.994609605128,9115.87545728189,10297.281477400164
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2006,9508.27021442594,8969.550537511725,10110.08039148461
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2007,9897.612331027078,9311.544730075368,10490.873415737176
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2008,10128.144777350026,9575.923135030473,10725.38227778106
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2009,9943.345188497638,9441.537888144212,10538.837278447952
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2010,10279.670859775957,9710.081078630328,10931.122436270216
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2011,10249.758515209069,9671.785758613652,10851.963305632646
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2012,10336.538922903854,9763.872859563915,10984.743542150221
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2013,10379.334000459805,9823.842271132215,10999.910984947983
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2014,10118.587949975547,9557.34869615277,10658.074372693503
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2015,10736.673740553804,10147.813128478105,11336.09495499706
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2016,11110.394965308706,10470.180329061153,11761.543171848589
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2017,11195.777717662932,10564.33520836787,11801.478998401777
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2018,10972.602652749363,10351.780489112723,11627.883355281698
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2019,10681.746812099967,10069.038005819366,11324.667498238661
+Firearms,Non-Hispanic White,"Number on youth impacted
+by parental death, thousands",2020,11143.404446135108,10501.218815240702,11825.077959105605
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",1999,2.504371095005675e-4,2.3311651138748502e-4,2.6877058711111677e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2000,2.4882607352577635e-4,2.3290014249056633e-4,2.6629788603881597e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2001,2.54560136814741e-4,2.385012827700983e-4,2.7163971332461455e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2002,2.6036453944733307e-4,2.442266154531691e-4,2.770357146295588e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2003,2.565086863889343e-4,2.4148456180665966e-4,2.713872451143656e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2004,2.490445611151859e-4,2.343780201315121e-4,2.6363451594445253e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2005,2.5795225406571864e-4,2.4354025577554562e-4,2.7324139203127313e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2006,2.5392586456801647e-4,2.396916437161556e-4,2.698624057351745e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2007,2.583408244917762e-4,2.4493859067859506e-4,2.7328084430956745e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2008,2.5661937111887134e-4,2.417704972475704e-4,2.718235057681262e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2009,2.525099073659165e-4,2.37513237834322e-4,2.672826646803239e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2010,2.5408706819646243e-4,2.3990096700605425e-4,2.6878134188611236e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2011,2.548344143726289e-4,2.407295953530092e-4,2.686472520670557e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2012,2.633271529948189e-4,2.483644860325845e-4,2.7835524413449554e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2013,2.627917683047931e-4,2.487560652200571e-4,2.777228741524973e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2014,2.559657503092838e-4,2.4186458720710515e-4,2.697488589916086e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2015,2.7931071225711923e-4,2.6440401649182596e-4,2.943757019361337e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2016,2.981164167286665e-4,2.828187481370536e-4,3.1693233356598627e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2017,3.012373380687494e-4,2.8534460445658324e-4,3.186839411862319e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2018,2.981562583712627e-4,2.834682113561887e-4,3.159727508194821e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2019,2.984370222355315e-4,2.8142680082726966e-4,3.155067126866806e-4
+Firearms,Total,"Youth impacted by parental
+death per 1,000 population",2020,3.429050545718515e-4,3.235905353931312e-4,3.64337602841866e-4
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",1999,18017.960551546195,16771.811950993055,19336.981830055178
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2000,18009.082925629486,16856.424731024163,19273.626130245808
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2001,18499.184250487982,17332.1684579103,19740.377143962894
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2002,18990.06703572521,17813.024036255607,20206.003487543087
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2003,18750.979408615378,17652.70451336467,19838.613329391923
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2004,18254.402243812205,17179.37800942424,19323.812886549757
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2005,18965.596145731804,17905.973153816554,20089.709664806564
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2006,18728.991296010492,17679.107705406102,19904.43414156696
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2007,19122.2341160907,18130.20874356815,20228.08549369182
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2008,19016.676362254257,17916.306473873297,20143.372709191695
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2009,18719.611641819385,17607.846038320346,19814.777699616134
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2010,18833.602505972354,17782.09133373487,19922.780761871836
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2011,18836.54647897405,17793.96327962607,19857.547350768164
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2012,19410.62758220111,18307.684901443266,20518.392873649722
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2013,19339.301910475966,18306.390182561096,20438.107880346055
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2014,18837.34300707894,17799.593050947915,19851.68631527185
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2015,20572.272993586426,19474.33939756433,21681.865525207453
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2016,21970.969144596093,20843.541784845922,23357.688912653357
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2017,22180.808892423745,21010.589791134236,23465.443035228865
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2018,21880.346396860557,20802.4567079478,23187.818621235852
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2019,21812.366526140533,20569.111981954044,23059.967583875175
+Firearms,Total,"Number on youth impacted
+by parental death, thousands",2020,24971.070632302537,23564.5465341291,26531.834084299488
