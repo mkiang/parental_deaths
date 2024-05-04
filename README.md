@@ -11,7 +11,7 @@ contains reproducible code for manuscript, “Youth experiencing parental
 death due to drug poisoning and firearm violence in the US, 1999 -
 2020”, which uses publicly-available multiple causes of death data from
 January 1, 1990, through December 31, 2020, from the [National Center
-for Health Statistics](https://wonder.cdc.gov/) \[UPDATE DATA\] to
+for Health Statistics](https://wonder.cdc.gov/) to
 quantify the number of children experiencing parental death due to drugs
 and firearms. The full citation is:
 
